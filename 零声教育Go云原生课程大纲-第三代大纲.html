@@ -1,0 +1,1817 @@
+<!DOCTYPE html> <html><meta charset=utf-8>
+<meta content="IE=edge" http-equiv=X-UA-Compatible>
+<title>零声教育Go云原生课程大纲-第三代大纲</title>
+<style>body{margin:0}#content-info{width:auto;margin:0 auto;text-align:center}#author-info{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}#title{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;padding-top:10px;margin-bottom:2px;font-size:34px;color:#505050}.text{white-space:nowrap;text-overflow:ellipsis;display:inline-block;margin-right:20px;margin-bottom:2px;font-size:20px;color:#8c8c8c}#svg-container{width:100%;overflow-x:scroll;min-width:0px;margin:0 10px;overflow:visible;position:relative}#main-content{bottom:0;left:0;right:0;background-color:#d0cfd8;display:flex;height:auto;flex-flow:row wrap;text-align:center}#svg-container>svg{overflow:visible;display:block;margin:5px auto;margin-bottom:5px}#copyright{bottom:0;left:50%;margin:5px auto;font-size:16px;color:#515151}#copyright>a{text-decoration:none;color:#77C}.sf-hidden{display:none!important}</style><link rel=canonical href=https://www.0voice.com/uiwebsite/html/courses/go-v3.2.html><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+ <body>
+ <div id=main-area>
+ <div id=content-info>
+ <div id=content-info>
+ <div id=title>零声教育Go云原生课程大纲-第三代大纲</div>
+ </div>
+ <div id=author-info>
+ <div id=author-name class=text>零声教育</div>
+ <div id=share-time class=text>2022-07-20</div>
+ <div id=copyright> 课程购买地址 <a href=https://ke.qq.com/course/3384068 target=_blank title=edrawsoft>腾讯课堂 golang/云原生/Docker/DevOps/K8S/持续集成/分布式/etcd/ipfs</a></div>
+ </div>
+ </div>
+ <div id=main-content>
+ <div id=svg-container><svg xmlns:ev=http://www.w3.org/2001/xml-events ed:vspacing=30 height=2467 id=page0 viewBox="0 0 3694 2467" xmlns=http://www.w3.org/2000/svg xmlns:ed=https://www.edrawsoft.cn/xml/2017/SVGExtensions/ ed:name=页面-1 xmlns:xlink=http://www.w3.org/1999/xlink width=3694 ed:hspacing=30 preserveaspectradio="xMinYMin meet">
+ <style>g[id]{-moz-user-select:none;-ms-user-select:none;user-select:none}svg text::selection,svg tspan::selection{background-color:#4285f4;color:#ffffff;fill:#ffffff}.st4{fill:#000000;font-family:微软雅黑;font-size:10pt}.st3{fill:#303030;font-family:微软雅黑;font-size:10pt}.st5{fill:#303030}.st2{fill:#454545;font-family:微软雅黑;font-size:14pt;font-weight:bold}.st1{fill:#454545;font-family:微软雅黑;font-size:18pt;font-weight:bold}</style>
+ <defs></defs>
+ <rect y=0 height=2467 width=3694 x=0 fill=#ffffff></rect>
+ <path stroke-linecap=round ed:tosuperid=104 stroke-linejoin=round d=M-19.5,0L19.5,0 id=105 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,617.38,69) fill=none ed:parentid=101></path>
+ <path stroke-linecap=round ed:tosuperid=106 stroke-linejoin=round d=M-44.3,0L44.3,0 id=107 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,909.18,69) fill=none ed:parentid=101></path>
+ <path stroke-linecap=round ed:tosuperid=108 stroke-linejoin=round d=M-9.5,-18.2L-9.5,-7.2L-9.5,12.2C-9.5,15.5,-6.8,18.2,-3.5,18.2L9.5,18.2 id=109 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,673.38,87.23) fill=none ed:parentid=104></path>
+ <path stroke-linecap=round ed:tosuperid=110 stroke-linejoin=round d=M-218.7,0L218.7,0 id=111 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1363.38,69) fill=none ed:parentid=101></path>
+ <path stroke-linecap=round ed:tosuperid=112 stroke-linejoin=round d=M-108.3,0L108.3,0 id=113 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,1973.58,69) fill=none ed:parentid=101></path>
+ <path stroke-linecap=round ed:tosuperid=116 stroke-linejoin=round d=M-255.5,0L255.5,0 id=117 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2454.98,69) fill=none ed:parentid=101></path>
+ <path stroke-linecap=round ed:tosuperid=120 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=121 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,131.63) fill=none ed:parentid=108></path>
+ <path stroke-linecap=round ed:tosuperid=122 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=123 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,148.2) fill=none ed:parentid=108></path>
+ <path stroke-linecap=round ed:tosuperid=124 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=125 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,164.77) fill=none ed:parentid=108></path>
+ <path stroke-linecap=round ed:tosuperid=126 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=127 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,181.35) fill=none ed:parentid=108></path>
+ <path stroke-linecap=round ed:tosuperid=128 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=129 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,197.92) fill=none ed:parentid=108></path>
+ <path stroke-linecap=round ed:tosuperid=130 stroke-linejoin=round d=M-7.8,-97.3L-7.8,-86.3L-7.8,91.3C-7.8,94.7,-5.1,97.3,-1.8,97.3L7.8,97.3 id=131 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,214.5) fill=none ed:parentid=108></path>
+ <path stroke-linecap=round ed:tosuperid=132 stroke-linejoin=round d=M-9.5,-138L-9.5,-127L-9.5,132C-9.5,135.3,-6.8,138,-3.5,138L9.5,138 id=133 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,673.38,207) fill=none ed:parentid=104></path>
+ <path stroke-linecap=round ed:tosuperid=134 stroke-linejoin=round d=M-9.5,-241.2L-9.5,-230.2L-9.5,235.2C-9.5,238.5,-6.8,241.2,-3.5,241.2L9.5,241.2 id=135 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,673.38,310.2) fill=none ed:parentid=104></path>
+ <path stroke-linecap=round ed:tosuperid=136 stroke-linejoin=round d=M-9.5,-327.8L-9.5,-316.8L-9.5,321.8C-9.5,325.1,-6.8,327.8,-3.5,327.8L9.5,327.8 id=137 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,673.38,396.83) fill=none ed:parentid=104></path>
+ <path stroke-linecap=round ed:tosuperid=138 stroke-linejoin=round d=M-9.5,-381.3L-9.5,-370.3L-9.5,375.3C-9.5,378.6,-6.8,381.3,-3.5,381.3L9.5,381.3 id=139 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,673.38,450.3) fill=none ed:parentid=104></path>
+ <path stroke-linecap=round ed:tosuperid=140 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=141 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,371.17) fill=none ed:parentid=132></path>
+ <path stroke-linecap=round ed:tosuperid=142 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=143 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,387.75) fill=none ed:parentid=132></path>
+ <path stroke-linecap=round ed:tosuperid=144 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=145 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,404.32) fill=none ed:parentid=132></path>
+ <path stroke-linecap=round ed:tosuperid=146 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=147 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,420.9) fill=none ed:parentid=132></path>
+ <path stroke-linecap=round ed:tosuperid=148 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=149 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,437.48) fill=none ed:parentid=132></path>
+ <path stroke-linecap=round ed:tosuperid=150 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=151 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,577.58) fill=none ed:parentid=134></path>
+ <path stroke-linecap=round ed:tosuperid=152 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=153 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,594.15) fill=none ed:parentid=134></path>
+ <path stroke-linecap=round ed:tosuperid=154 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=155 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,610.73) fill=none ed:parentid=134></path>
+ <path stroke-linecap=round ed:tosuperid=156 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=157 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,627.3) fill=none ed:parentid=134></path>
+ <path stroke-linecap=round ed:tosuperid=158 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=159 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,750.83) fill=none ed:parentid=136></path>
+ <path stroke-linecap=round ed:tosuperid=160 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=161 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,767.4) fill=none ed:parentid=136></path>
+ <path stroke-linecap=round ed:tosuperid=162 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=163 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,857.78) fill=none ed:parentid=138></path>
+ <path stroke-linecap=round ed:tosuperid=164 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=165 stroke-width=2 stroke=#508ae1 transform=matrix(1,0,0,1,702.68,874.35) fill=none ed:parentid=138></path>
+ <path stroke-linecap=round ed:tosuperid=166 stroke-linejoin=round d=M-9.5,-18.2L-9.5,-7.2L-9.5,12.2C-9.5,15.5,-6.8,18.2,-3.5,18.2L9.5,18.2 id=167 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,87.23) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=168 stroke-linejoin=round d=M-9.5,-154.6L-9.5,-143.6L-9.5,148.6C-9.5,151.9,-6.8,154.6,-3.5,154.6L9.5,154.6 id=169 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,223.58) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=170 stroke-linejoin=round d=M-9.5,-373.8L-9.5,-362.8L-9.5,367.8C-9.5,371.1,-6.8,373.8,-3.5,373.8L9.5,373.8 id=171 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,442.8) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=172 stroke-linejoin=round d=M-9.5,-493.6L-9.5,-482.6L-9.5,487.6C-9.5,490.9,-6.8,493.6,-3.5,493.6L9.5,493.6 id=173 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,562.57) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=174 stroke-linejoin=round d=M-9.5,-589.4L-9.5,-578.4L-9.5,583.4C-9.5,586.7,-6.8,589.4,-3.5,589.4L9.5,589.4 id=175 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,658.4) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=176 stroke-linejoin=round d=M-9.5,-725.8L-9.5,-714.8L-9.5,719.8C-9.5,723.1,-6.8,725.8,-3.5,725.8L9.5,725.8 id=177 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,794.75) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=178 stroke-linejoin=round d=M-9.5,-821.6L-9.5,-810.6L-9.5,815.6C-9.5,818.9,-6.8,821.6,-3.5,821.6L9.5,821.6 id=179 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,890.58) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=180 stroke-linejoin=round d=M-9.5,-941.4L-9.5,-930.4L-9.5,935.4C-9.5,938.7,-6.8,941.4,-3.5,941.4L9.5,941.4 id=181 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,1010.35) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=182 stroke-linejoin=round d=M-9.5,-1110.9L-9.5,-1099.9L-9.5,1104.9C-9.5,1108.2,-6.8,1110.9,-3.5,1110.9L9.5,1110.9 id=183 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,989.98,1179.85) fill=none ed:parentid=106></path>
+ <path stroke-linecap=round ed:tosuperid=184 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=185 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,131.63) fill=none ed:parentid=166></path>
+ <path stroke-linecap=round ed:tosuperid=186 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=187 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,148.2) fill=none ed:parentid=166></path>
+ <path stroke-linecap=round ed:tosuperid=188 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=189 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,164.77) fill=none ed:parentid=166></path>
+ <path stroke-linecap=round ed:tosuperid=190 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=191 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,181.35) fill=none ed:parentid=166></path>
+ <path stroke-linecap=round ed:tosuperid=192 stroke-linejoin=round d=M-7.8,-97.3L-7.8,-86.3L-7.8,91.3C-7.8,94.7,-5.1,97.3,-1.8,97.3L7.8,97.3 id=193 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,214.5) fill=none ed:parentid=166></path>
+ <path stroke-linecap=round ed:tosuperid=194 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=195 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,231.07) fill=none ed:parentid=166></path>
+ <path stroke-linecap=round ed:tosuperid=196 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=197 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,197.92) fill=none ed:parentid=166></path>
+ <path stroke-linecap=round ed:tosuperid=198 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=199 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,404.33) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=200 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=201 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,420.9) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=202 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=203 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,437.48) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=204 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=205 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,454.05) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=206 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=207 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,470.63) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=208 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=209 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,487.2) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=210 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=211 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,503.78) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=212 stroke-linejoin=round d=M-7.8,-130.5L-7.8,-119.5L-7.8,124.5C-7.8,127.8,-5.1,130.5,-1.8,130.5L7.8,130.5 id=213 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,520.35) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=214 stroke-linejoin=round d=M-7.8,-147.1L-7.8,-136.1L-7.8,141.1C-7.8,144.4,-5.1,147.1,-1.8,147.1L7.8,147.1 id=215 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,536.93) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=216 stroke-linejoin=round d=M-7.8,-163.7L-7.8,-152.7L-7.8,157.7C-7.8,161,-5.1,163.7,-1.8,163.7L7.8,163.7 id=217 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,553.5) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=218 stroke-linejoin=round d=M-7.8,-180.2L-7.8,-169.2L-7.8,174.2C-7.8,177.5,-5.1,180.2,-1.8,180.2L7.8,180.2 id=219 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,570.08) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=220 stroke-linejoin=round d=M-7.8,-196.8L-7.8,-185.8L-7.8,190.8C-7.8,194.1,-5.1,196.8,-1.8,196.8L7.8,196.8 id=221 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,586.65) fill=none ed:parentid=168></path>
+ <path stroke-linecap=round ed:tosuperid=222 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=223 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,842.78) fill=none ed:parentid=170></path>
+ <path stroke-linecap=round ed:tosuperid=224 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=225 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,859.35) fill=none ed:parentid=170></path>
+ <path stroke-linecap=round ed:tosuperid=226 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=227 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,875.93) fill=none ed:parentid=170></path>
+ <path stroke-linecap=round ed:tosuperid=228 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=229 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,892.5) fill=none ed:parentid=170></path>
+ <path stroke-linecap=round ed:tosuperid=230 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=231 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,909.08) fill=none ed:parentid=170></path>
+ <path stroke-linecap=round ed:tosuperid=232 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=233 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,925.65) fill=none ed:parentid=170></path>
+ <path stroke-linecap=round ed:tosuperid=234 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=235 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1082.32) fill=none ed:parentid=172></path>
+ <path stroke-linecap=round ed:tosuperid=236 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=237 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1098.9) fill=none ed:parentid=172></path>
+ <path stroke-linecap=round ed:tosuperid=238 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=239 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1115.47) fill=none ed:parentid=172></path>
+ <path stroke-linecap=round ed:tosuperid=240 stroke-linejoin=round d=M-7.8,-68.8L-7.8,-57.8L-7.8,62.8C-7.8,66.1,-5.1,68.8,-1.8,68.8L7.8,68.8 id=241 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1136.65) fill=none ed:parentid=172></path>
+ <path stroke-linecap=round ed:tosuperid=242 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=243 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1273.97) fill=none ed:parentid=174></path>
+ <path stroke-linecap=round ed:tosuperid=244 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=245 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1290.55) fill=none ed:parentid=174></path>
+ <path stroke-linecap=round ed:tosuperid=246 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=247 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1307.13) fill=none ed:parentid=174></path>
+ <path stroke-linecap=round ed:tosuperid=248 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=249 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1323.7) fill=none ed:parentid=174></path>
+ <path stroke-linecap=round ed:tosuperid=250 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=251 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1340.28) fill=none ed:parentid=174></path>
+ <path stroke-linecap=round ed:tosuperid=252 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=253 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1356.85) fill=none ed:parentid=174></path>
+ <path stroke-linecap=round ed:tosuperid=254 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=255 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1373.43) fill=none ed:parentid=174></path>
+ <path stroke-linecap=round ed:tosuperid=256 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=257 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1546.68) fill=none ed:parentid=176></path>
+ <path stroke-linecap=round ed:tosuperid=258 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=259 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1563.25) fill=none ed:parentid=176></path>
+ <path stroke-linecap=round ed:tosuperid=260 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=261 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1579.83) fill=none ed:parentid=176></path>
+ <path stroke-linecap=round ed:tosuperid=262 stroke-linejoin=round d=M-7.8,-68.8L-7.8,-57.8L-7.8,62.8C-7.8,66.1,-5.1,68.8,-1.8,68.8L7.8,68.8 id=263 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1601) fill=none ed:parentid=176></path>
+ <path stroke-linecap=round ed:tosuperid=264 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=265 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1738.33) fill=none ed:parentid=178></path>
+ <path stroke-linecap=round ed:tosuperid=266 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=267 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1754.9) fill=none ed:parentid=178></path>
+ <path stroke-linecap=round ed:tosuperid=268 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=269 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1771.48) fill=none ed:parentid=178></path>
+ <path stroke-linecap=round ed:tosuperid=270 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=271 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1788.05) fill=none ed:parentid=178></path>
+ <path stroke-linecap=round ed:tosuperid=272 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=273 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1804.63) fill=none ed:parentid=178></path>
+ <path stroke-linecap=round ed:tosuperid=274 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=275 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1821.2) fill=none ed:parentid=178></path>
+ <path stroke-linecap=round ed:tosuperid=276 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=277 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1977.88) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=278 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=279 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,1994.45) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=280 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=281 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2011.03) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=282 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=283 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2027.6) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=284 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=285 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2044.18) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=286 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=287 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2060.75) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=288 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=289 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2077.33) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=290 stroke-linejoin=round d=M-7.8,-130.5L-7.8,-119.5L-7.8,124.5C-7.8,127.8,-5.1,130.5,-1.8,130.5L7.8,130.5 id=291 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2093.9) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=292 stroke-linejoin=round d=M-7.8,-147.1L-7.8,-136.1L-7.8,141.1C-7.8,144.4,-5.1,147.1,-1.8,147.1L7.8,147.1 id=293 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2110.48) fill=none ed:parentid=180></path>
+ <path stroke-linecap=round ed:tosuperid=294 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=295 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2316.88) fill=none ed:parentid=182></path>
+ <path stroke-linecap=round ed:tosuperid=296 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=297 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2333.45) fill=none ed:parentid=182></path>
+ <path stroke-linecap=round ed:tosuperid=298 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=299 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2350.03) fill=none ed:parentid=182></path>
+ <path stroke-linecap=round ed:tosuperid=300 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=301 stroke-width=2 stroke=#f5a7ae transform=matrix(1,0,0,1,1019.28,2366.6) fill=none ed:parentid=182></path>
+ <path stroke-linecap=round ed:tosuperid=303 stroke-linejoin=round d=M-9.5,-18.2L-9.5,-7.2L-9.5,12.2C-9.5,15.5,-6.8,18.2,-3.5,18.2L9.5,18.2 id=304 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1618.58,87.23) fill=none ed:parentid=110></path>
+ <path stroke-linecap=round ed:tosuperid=305 stroke-linejoin=round d=M-9.5,-154.6L-9.5,-143.6L-9.5,148.6C-9.5,151.9,-6.8,154.6,-3.5,154.6L9.5,154.6 id=306 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1618.58,223.58) fill=none ed:parentid=110></path>
+ <path stroke-linecap=round ed:tosuperid=307 stroke-linejoin=round d=M-9.5,-324.1L-9.5,-313.1L-9.5,318.1C-9.5,321.4,-6.8,324.1,-3.5,324.1L9.5,324.1 id=308 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1618.58,393.08) fill=none ed:parentid=110></path>
+ <path stroke-linecap=round ed:tosuperid=309 stroke-linejoin=round d=M-9.5,-410.7L-9.5,-399.7L-9.5,404.7C-9.5,408,-6.8,410.7,-3.5,410.7L9.5,410.7 id=310 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1618.58,479.7) fill=none ed:parentid=110></path>
+ <path stroke-linecap=round ed:tosuperid=311 stroke-linejoin=round d=M-9.5,-596.8L-9.5,-585.8L-9.5,590.8C-9.5,594.1,-6.8,596.8,-3.5,596.8L9.5,596.8 id=312 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1618.58,665.78) fill=none ed:parentid=110></path>
+ <path stroke-linecap=round ed:tosuperid=313 stroke-linejoin=round d=M-9.5,-716.6L-9.5,-705.6L-9.5,710.6C-9.5,713.9,-6.8,716.6,-3.5,716.6L9.5,716.6 id=314 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1618.58,785.55) fill=none ed:parentid=110></path>
+ <path stroke-linecap=round ed:tosuperid=315 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=316 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,131.63) fill=none ed:parentid=303></path>
+ <path stroke-linecap=round ed:tosuperid=317 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=318 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,148.2) fill=none ed:parentid=303></path>
+ <path stroke-linecap=round ed:tosuperid=319 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=320 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,164.77) fill=none ed:parentid=303></path>
+ <path stroke-linecap=round ed:tosuperid=321 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=322 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,181.35) fill=none ed:parentid=303></path>
+ <path stroke-linecap=round ed:tosuperid=323 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=324 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,197.92) fill=none ed:parentid=303></path>
+ <path stroke-linecap=round ed:tosuperid=325 stroke-linejoin=round d=M-7.8,-97.3L-7.8,-86.3L-7.8,91.3C-7.8,94.7,-5.1,97.3,-1.8,97.3L7.8,97.3 id=326 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,214.5) fill=none ed:parentid=303></path>
+ <path stroke-linecap=round ed:tosuperid=327 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=328 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,231.07) fill=none ed:parentid=303></path>
+ <path stroke-linecap=round ed:tosuperid=329 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=330 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,404.33) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=331 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=332 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,420.9) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=333 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=334 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,437.48) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=335 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=336 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,454.05) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=337 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=338 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,470.63) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=339 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=340 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,487.2) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=341 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=342 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,503.78) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=343 stroke-linejoin=round d=M-7.8,-130.5L-7.8,-119.5L-7.8,124.5C-7.8,127.8,-5.1,130.5,-1.8,130.5L7.8,130.5 id=344 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,520.35) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=345 stroke-linejoin=round d=M-7.8,-147.1L-7.8,-136.1L-7.8,141.1C-7.8,144.4,-5.1,147.1,-1.8,147.1L7.8,147.1 id=346 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,536.93) fill=none ed:parentid=305></path>
+ <path stroke-linecap=round ed:tosuperid=347 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=348 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,743.33) fill=none ed:parentid=307></path>
+ <path stroke-linecap=round ed:tosuperid=349 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=350 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,759.9) fill=none ed:parentid=307></path>
+ <path stroke-linecap=round ed:tosuperid=351 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=352 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,776.48) fill=none ed:parentid=307></path>
+ <path stroke-linecap=round ed:tosuperid=353 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=354 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,793.05) fill=none ed:parentid=307></path>
+ <path stroke-linecap=round ed:tosuperid=355 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=356 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,916.58) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=357 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=358 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,933.15) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=359 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=360 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,949.73) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=361 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=362 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,966.3) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=363 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=364 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,982.88) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=365 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=366 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,999.45) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=367 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=368 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1016.03) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=369 stroke-linejoin=round d=M-7.8,-130.5L-7.8,-119.5L-7.8,124.5C-7.8,127.8,-5.1,130.5,-1.8,130.5L7.8,130.5 id=370 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1032.6) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=371 stroke-linejoin=round d=M-7.8,-147.1L-7.8,-136.1L-7.8,141.1C-7.8,144.4,-5.1,147.1,-1.8,147.1L7.8,147.1 id=372 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1049.18) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=373 stroke-linejoin=round d=M-7.8,-163.7L-7.8,-152.7L-7.8,157.7C-7.8,161,-5.1,163.7,-1.8,163.7L7.8,163.7 id=374 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1065.75) fill=none ed:parentid=309></path>
+ <path stroke-linecap=round ed:tosuperid=375 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=376 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1288.72) fill=none ed:parentid=311></path>
+ <path stroke-linecap=round ed:tosuperid=377 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=378 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1305.3) fill=none ed:parentid=311></path>
+ <path stroke-linecap=round ed:tosuperid=379 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=380 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1321.88) fill=none ed:parentid=311></path>
+ <path stroke-linecap=round ed:tosuperid=381 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=382 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1338.45) fill=none ed:parentid=311></path>
+ <path stroke-linecap=round ed:tosuperid=383 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=384 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1355.03) fill=none ed:parentid=311></path>
+ <path stroke-linecap=round ed:tosuperid=385 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=386 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1371.6) fill=none ed:parentid=311></path>
+ <path stroke-linecap=round ed:tosuperid=387 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=388 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1528.28) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=389 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=390 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1544.85) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=391 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=392 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1561.43) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=393 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=394 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1578) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=395 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=396 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1594.58) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=397 stroke-linejoin=round d=M-7.8,-97.4L-7.8,-86.4L-7.8,91.4C-7.8,94.7,-5.1,97.4,-1.8,97.4L7.8,97.4 id=398 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1611.15) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=399 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=400 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1627.73) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=401 stroke-linejoin=round d=M-7.8,-130.5L-7.8,-119.5L-7.8,124.5C-7.8,127.8,-5.1,130.5,-1.8,130.5L7.8,130.5 id=402 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1644.3) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=403 stroke-linejoin=round d=M-7.8,-147.1L-7.8,-136.1L-7.8,141.1C-7.8,144.4,-5.1,147.1,-1.8,147.1L7.8,147.1 id=404 stroke-width=2 stroke=#00b050 transform=matrix(1,0,0,1,1647.88,1660.88) fill=none ed:parentid=313></path>
+ <path stroke-linecap=round ed:tosuperid=405 stroke-linejoin=round d=M-9.5,-18.2L-9.5,-7.2L-9.5,12.2C-9.5,15.5,-6.8,18.2,-3.5,18.2L9.5,18.2 id=406 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2118.38,87.23) fill=none ed:parentid=112></path>
+ <path stroke-linecap=round ed:tosuperid=407 stroke-linejoin=round d=M-9.5,-171.1L-9.5,-160.1L-9.5,165.1C-9.5,168.5,-6.8,171.1,-3.5,171.1L9.5,171.1 id=408 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2118.38,240.15) fill=none ed:parentid=112></path>
+ <path stroke-linecap=round ed:tosuperid=409 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=410 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,131.63) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=411 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=412 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,148.2) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=413 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=414 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,164.77) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=415 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=416 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,181.35) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=417 stroke-linejoin=round d=M-7.8,-97.3L-7.8,-86.3L-7.8,91.3C-7.8,94.7,-5.1,97.3,-1.8,97.3L7.8,97.3 id=418 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,214.5) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=419 stroke-linejoin=round d=M-7.8,-130.5L-7.8,-119.5L-7.8,124.5C-7.8,127.8,-5.1,130.5,-1.8,130.5L7.8,130.5 id=420 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,247.65) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=421 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=422 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,437.47) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=423 stroke-linejoin=round d=M-7.8,-35.7L-7.8,-24.7L-7.8,29.7C-7.8,33,-5.1,35.7,-1.8,35.7L7.8,35.7 id=424 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,458.65) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=425 stroke-linejoin=round d=M-7.8,-56.8L-7.8,-45.8L-7.8,50.8C-7.8,54.1,-5.1,56.8,-1.8,56.8L7.8,56.8 id=426 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,479.83) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=429 stroke-linejoin=round d=M-7.8,-123.1L-7.8,-112.1L-7.8,117.1C-7.8,120.4,-5.1,123.1,-1.8,123.1L7.8,123.1 id=430 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,546.13) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=433 stroke-linejoin=round d=M-7.8,-90L-7.8,-79L-7.8,84C-7.8,87.3,-5.1,90,-1.8,90L7.8,90 id=434 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,512.98) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=435 stroke-linejoin=round d=M-7.8,-106.6L-7.8,-95.6L-7.8,100.6C-7.8,103.9,-5.1,106.6,-1.8,106.6L7.8,106.6 id=436 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,529.55) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=437 stroke-linejoin=round d=M-7.8,-139.7L-7.8,-128.7L-7.8,133.7C-7.8,137,-5.1,139.7,-1.8,139.7L7.8,139.7 id=438 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,562.7) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=439 stroke-linejoin=round d=M-7.8,-73.4L-7.8,-62.4L-7.8,67.4C-7.8,70.7,-5.1,73.4,-1.8,73.4L7.8,73.4 id=440 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,496.4) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=441 stroke-linejoin=round d=M-7.8,-156.3L-7.8,-145.3L-7.8,150.3C-7.8,153.6,-5.1,156.3,-1.8,156.3L7.8,156.3 id=442 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,579.28) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=443 stroke-linejoin=round d=M-7.8,-172.9L-7.8,-161.9L-7.8,166.9C-7.8,170.2,-5.1,172.9,-1.8,172.9L7.8,172.9 id=444 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,595.85) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=447 stroke-linejoin=round d=M-7.8,-189.4L-7.8,-178.4L-7.8,183.4C-7.8,186.7,-5.1,189.4,-1.8,189.4L7.8,189.4 id=448 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,612.43) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=449 stroke-linejoin=round d=M-7.8,-206L-7.8,-195L-7.8,200C-7.8,203.3,-5.1,206,-1.8,206L7.8,206 id=450 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,629) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=451 stroke-linejoin=round d=M-7.8,-222.6L-7.8,-211.6L-7.8,216.6C-7.8,219.9,-5.1,222.6,-1.8,222.6L7.8,222.6 id=452 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,645.58) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=453 stroke-linejoin=round d=M-7.8,-239.2L-7.8,-228.2L-7.8,233.2C-7.8,236.5,-5.1,239.2,-1.8,239.2L7.8,239.2 id=454 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,662.15) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=455 stroke-linejoin=round d=M-7.8,-255.7L-7.8,-244.7L-7.8,249.7C-7.8,253,-5.1,255.7,-1.8,255.7L7.8,255.7 id=456 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,678.73) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=457 stroke-linejoin=round d=M-7.8,-272.3L-7.8,-261.3L-7.8,266.3C-7.8,269.6,-5.1,272.3,-1.8,272.3L7.8,272.3 id=458 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,695.3) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=459 stroke-linejoin=round d=M-7.8,-288.9L-7.8,-277.9L-7.8,282.9C-7.8,286.2,-5.1,288.9,-1.8,288.9L7.8,288.9 id=460 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,711.88) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=461 stroke-linejoin=round d=M-7.8,-305.5L-7.8,-294.5L-7.8,299.5C-7.8,302.8,-5.1,305.5,-1.8,305.5L7.8,305.5 id=462 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,728.45) fill=none ed:parentid=407></path>
+ <path stroke-linecap=round ed:tosuperid=465 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=466 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,197.92) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=467 stroke-linejoin=round d=M-7.8,-113.9L-7.8,-102.9L-7.8,107.9C-7.8,111.2,-5.1,113.9,-1.8,113.9L7.8,113.9 id=468 stroke-width=2 stroke=#da9915 transform=matrix(1,0,0,1,2147.68,231.07) fill=none ed:parentid=405></path>
+ <path stroke-linecap=round ed:tosuperid=469 stroke-linejoin=round d=M-9.5,-18.2L-9.5,-7.2L-9.5,12.2C-9.5,15.5,-6.8,18.2,-3.5,18.2L9.5,18.2 id=470 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,87.23) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=471 stroke-linejoin=round d=M-9.5,-71.7L-9.5,-60.7L-9.5,65.7C-9.5,69,-6.8,71.7,-3.5,71.7L9.5,71.7 id=472 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,140.7) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=473 stroke-linejoin=round d=M-9.5,-141.8L-9.5,-130.8L-9.5,135.8C-9.5,139.1,-6.8,141.8,-3.5,141.8L9.5,141.8 id=474 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,210.75) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=475 stroke-linejoin=round d=M-9.5,-195.2L-9.5,-184.2L-9.5,189.2C-9.5,192.5,-6.8,195.2,-3.5,195.2L9.5,195.2 id=476 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,264.23) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=477 stroke-linejoin=round d=M-9.5,-281.9L-9.5,-270.9L-9.5,275.9C-9.5,279.2,-6.8,281.9,-3.5,281.9L9.5,281.9 id=478 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,350.85) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=479 stroke-linejoin=round d=M-9.5,-351.9L-9.5,-340.9L-9.5,345.9C-9.5,349.2,-6.8,351.9,-3.5,351.9L9.5,351.9 id=480 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,420.9) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=481 stroke-linejoin=round d=M-9.5,-455.1L-9.5,-444.1L-9.5,449.1C-9.5,452.4,-6.8,455.1,-3.5,455.1L9.5,455.1 id=482 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,524.1) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=483 stroke-linejoin=round d=M-9.5,-611.8L-9.5,-600.8L-9.5,605.8C-9.5,609.1,-6.8,611.8,-3.5,611.8L9.5,611.8 id=484 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,680.78) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=485 stroke-linejoin=round d=M-9.5,-681.8L-9.5,-670.8L-9.5,675.8C-9.5,679.1,-6.8,681.8,-3.5,681.8L9.5,681.8 id=486 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,750.82) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=487 stroke-linejoin=round d=M-9.5,-541.7L-9.5,-530.7L-9.5,535.7C-9.5,539,-6.8,541.7,-3.5,541.7L9.5,541.7 id=488 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,610.72) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=489 stroke-linejoin=round d=M-9.5,-735.3L-9.5,-724.3L-9.5,729.3C-9.5,732.6,-6.8,735.3,-3.5,735.3L9.5,735.3 id=490 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2746.98,804.3) fill=none ed:parentid=116></path>
+ <path stroke-linecap=round ed:tosuperid=493 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=494 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,148.2) fill=none ed:parentid=469></path>
+ <path stroke-linecap=round ed:tosuperid=495 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=496 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,131.63) fill=none ed:parentid=469></path>
+ <path stroke-linecap=round ed:tosuperid=497 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=498 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,238.58) fill=none ed:parentid=471></path>
+ <path stroke-linecap=round ed:tosuperid=499 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=500 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,255.15) fill=none ed:parentid=471></path>
+ <path stroke-linecap=round ed:tosuperid=501 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=502 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,271.73) fill=none ed:parentid=471></path>
+ <path stroke-linecap=round ed:tosuperid=503 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=504 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,378.68) fill=none ed:parentid=473></path>
+ <path stroke-linecap=round ed:tosuperid=505 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=506 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,395.25) fill=none ed:parentid=473></path>
+ <path stroke-linecap=round ed:tosuperid=507 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=508 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,485.63) fill=none ed:parentid=475></path>
+ <path stroke-linecap=round ed:tosuperid=509 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=510 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,502.2) fill=none ed:parentid=475></path>
+ <path stroke-linecap=round ed:tosuperid=511 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=512 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,518.78) fill=none ed:parentid=475></path>
+ <path stroke-linecap=round ed:tosuperid=513 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=514 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,535.35) fill=none ed:parentid=475></path>
+ <path stroke-linecap=round ed:tosuperid=515 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=516 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,675.45) fill=none ed:parentid=477></path>
+ <path stroke-linecap=round ed:tosuperid=517 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=518 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,692.03) fill=none ed:parentid=477></path>
+ <path stroke-linecap=round ed:tosuperid=519 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=520 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,658.88) fill=none ed:parentid=477></path>
+ <path stroke-linecap=round ed:tosuperid=521 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=522 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,798.97) fill=none ed:parentid=479></path>
+ <path stroke-linecap=round ed:tosuperid=523 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=524 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,815.55) fill=none ed:parentid=479></path>
+ <path stroke-linecap=round ed:tosuperid=525 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=526 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,832.13) fill=none ed:parentid=479></path>
+ <path stroke-linecap=round ed:tosuperid=527 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=528 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,848.7) fill=none ed:parentid=479></path>
+ <path stroke-linecap=round ed:tosuperid=529 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=530 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,865.28) fill=none ed:parentid=479></path>
+ <path stroke-linecap=round ed:tosuperid=531 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=532 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1005.38) fill=none ed:parentid=481></path>
+ <path stroke-linecap=round ed:tosuperid=533 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=534 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1021.95) fill=none ed:parentid=481></path>
+ <path stroke-linecap=round ed:tosuperid=535 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=536 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1038.53) fill=none ed:parentid=481></path>
+ <path stroke-linecap=round ed:tosuperid=537 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=538 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1055.1) fill=none ed:parentid=481></path>
+ <path stroke-linecap=round ed:tosuperid=539 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=540 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1318.72) fill=none ed:parentid=483></path>
+ <path stroke-linecap=round ed:tosuperid=541 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=542 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1335.3) fill=none ed:parentid=483></path>
+ <path stroke-linecap=round ed:tosuperid=543 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=544 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1351.88) fill=none ed:parentid=483></path>
+ <path stroke-linecap=round ed:tosuperid=545 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=546 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1458.83) fill=none ed:parentid=485></path>
+ <path stroke-linecap=round ed:tosuperid=547 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=548 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1475.4) fill=none ed:parentid=485></path>
+ <path stroke-linecap=round ed:tosuperid=549 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=550 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1178.63) fill=none ed:parentid=487></path>
+ <path stroke-linecap=round ed:tosuperid=551 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=552 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1195.2) fill=none ed:parentid=487></path>
+ <path stroke-linecap=round ed:tosuperid=553 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=554 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1211.78) fill=none ed:parentid=487></path>
+ <path stroke-linecap=round ed:tosuperid=555 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=556 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1565.77) fill=none ed:parentid=489></path>
+ <path stroke-linecap=round ed:tosuperid=758 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=759 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1582.35) fill=none ed:parentid=489></path>
+ <path stroke-linecap=round ed:tosuperid=760 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=761 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1598.92) fill=none ed:parentid=489></path>
+ <path stroke-linecap=round ed:tosuperid=762 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=763 stroke-width=2 stroke=#5c9dff transform=matrix(1,0,0,1,2776.28,1615.5) fill=none ed:parentid=489></path>
+ <path stroke-linecap=round ed:tosuperid=767 stroke-linejoin=round d=M-103.5,0L103.5,0 id=768 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,2978.78,69) fill=none ed:parentid=101></path>
+ <path stroke-linecap=round ed:tosuperid=769 stroke-linejoin=round d=M-9.5,-18.2L-9.5,-7.2L-9.5,12.2C-9.5,15.5,-6.8,18.2,-3.5,18.2L9.5,18.2 id=770 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3118.78,87.23) fill=none ed:parentid=767></path>
+ <path stroke-linecap=round ed:tosuperid=771 stroke-linejoin=round d=M-9.5,-440.2L-9.5,-429.2L-9.5,434.2C-9.5,437.5,-6.8,440.2,-3.5,440.2L9.5,440.2 id=772 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3118.78,509.22) fill=none ed:parentid=767></path>
+ <path stroke-linecap=round ed:tosuperid=773 stroke-linejoin=round d=M-9.5,-224.6L-9.5,-213.6L-9.5,218.6C-9.5,221.9,-6.8,224.6,-3.5,224.6L9.5,224.6 id=774 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3118.78,293.63) fill=none ed:parentid=767></path>
+ <path stroke-linecap=round ed:tosuperid=775 stroke-linejoin=round d=M-9.5,-327.8L-9.5,-316.8L-9.5,321.8C-9.5,325.1,-6.8,327.8,-3.5,327.8L9.5,327.8 id=776 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3118.78,396.83) fill=none ed:parentid=767></path>
+ <path stroke-linecap=round ed:tosuperid=777 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=778 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,131.63) fill=none ed:parentid=769></path>
+ <path stroke-linecap=round ed:tosuperid=779 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=780 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,148.2) fill=none ed:parentid=769></path>
+ <path stroke-linecap=round ed:tosuperid=781 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=782 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,164.77) fill=none ed:parentid=769></path>
+ <path stroke-linecap=round ed:tosuperid=783 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=784 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,181.35) fill=none ed:parentid=769></path>
+ <path stroke-linecap=round ed:tosuperid=785 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=786 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,197.92) fill=none ed:parentid=769></path>
+ <path stroke-linecap=round ed:tosuperid=787 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=788 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,544.43) fill=none ed:parentid=773></path>
+ <path stroke-linecap=round ed:tosuperid=789 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=790 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,561) fill=none ed:parentid=773></path>
+ <path stroke-linecap=round ed:tosuperid=791 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=792 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,577.58) fill=none ed:parentid=773></path>
+ <path stroke-linecap=round ed:tosuperid=793 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=794 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,594.15) fill=none ed:parentid=773></path>
+ <path stroke-linecap=round ed:tosuperid=795 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=796 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,610.73) fill=none ed:parentid=773></path>
+ <path stroke-linecap=round ed:tosuperid=797 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=798 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,750.83) fill=none ed:parentid=775></path>
+ <path stroke-linecap=round ed:tosuperid=799 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25.1C-7.8,28.4,-5.1,31.1,-1.8,31.1L7.8,31.1 id=800 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,767.4) fill=none ed:parentid=775></path>
+ <path stroke-linecap=round ed:tosuperid=801 stroke-linejoin=round d=M-7.8,-52.2L-7.8,-41.2L-7.8,46.2C-7.8,49.5,-5.1,52.2,-1.8,52.2L7.8,52.2 id=802 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,788.58) fill=none ed:parentid=775></path>
+ <path stroke-linecap=round ed:tosuperid=803 stroke-linejoin=round d=M-7.8,-73.4L-7.8,-62.4L-7.8,67.4C-7.8,70.7,-5.1,73.4,-1.8,73.4L7.8,73.4 id=804 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,809.75) fill=none ed:parentid=775></path>
+ <path stroke-linecap=round ed:tosuperid=805 stroke-linejoin=round d=M-7.8,-90L-7.8,-79L-7.8,84C-7.8,87.3,-5.1,90,-1.8,90L7.8,90 id=806 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,826.33) fill=none ed:parentid=775></path>
+ <path stroke-linecap=round ed:tosuperid=807 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=808 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,975.63) fill=none ed:parentid=771></path>
+ <path stroke-linecap=round ed:tosuperid=809 stroke-linejoin=round d=M-7.8,-31.1L-7.8,-20.1L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=810 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,992.2) fill=none ed:parentid=771></path>
+ <path stroke-linecap=round ed:tosuperid=811 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=812 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,1008.78) fill=none ed:parentid=771></path>
+ <path stroke-linecap=round ed:tosuperid=813 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=814 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,1025.35) fill=none ed:parentid=771></path>
+ <path stroke-linecap=round ed:tosuperid=815 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=816 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,1041.93) fill=none ed:parentid=771></path>
+ <path stroke-linecap=round ed:tosuperid=817 stroke-linejoin=round d=M-9.5,-121.4L-9.5,-110.4L-9.5,115.4C-9.5,118.7,-6.8,121.4,-3.5,121.4L9.5,121.4 id=818 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3118.78,190.42) fill=none ed:parentid=767></path>
+ <path stroke-linecap=round ed:tosuperid=819 stroke-linejoin=round d=M-7.8,-14.5L-7.8,-3.5L-7.8,8.5C-7.8,11.8,-5.1,14.5,-1.8,14.5L7.8,14.5 id=820 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,338.02) fill=none ed:parentid=817></path>
+ <path stroke-linecap=round ed:tosuperid=821 stroke-linejoin=round d=M-7.8,-31L-7.8,-20L-7.8,25C-7.8,28.4,-5.1,31,-1.8,31L7.8,31 id=822 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,354.6) fill=none ed:parentid=817></path>
+ <path stroke-linecap=round ed:tosuperid=823 stroke-linejoin=round d=M-7.8,-47.6L-7.8,-36.6L-7.8,41.6C-7.8,44.9,-5.1,47.6,-1.8,47.6L7.8,47.6 id=824 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,371.17) fill=none ed:parentid=817></path>
+ <path stroke-linecap=round ed:tosuperid=825 stroke-linejoin=round d=M-7.8,-64.2L-7.8,-53.2L-7.8,58.2C-7.8,61.5,-5.1,64.2,-1.8,64.2L7.8,64.2 id=826 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,387.75) fill=none ed:parentid=817></path>
+ <path stroke-linecap=round ed:tosuperid=827 stroke-linejoin=round d=M-7.8,-80.8L-7.8,-69.8L-7.8,74.8C-7.8,78.1,-5.1,80.8,-1.8,80.8L7.8,80.8 id=828 stroke-width=2 stroke=#f96628 transform=matrix(1,0,0,1,3148.08,404.32) fill=none ed:parentid=817></path>
+ <g ed:topictype=mainidea ed:width=574.8800000000001 ed:height=96 id=101 transform=matrix(1,0,0,1,23,21) ed:layout=map>
+ <path d=M48,0L526.9,0C553.4,0,574.9,21.5,574.9,48C574.9,74.5,553.4,96,526.9,96L48,96C21.5,96,0,74.5,0,48C0,21.5,21.5,0,48,0z stroke-linejoin=round stroke-width=3 stroke=#ffffff fill=#ffffff></path>
+ <text class=st1>
+ <tspan style=white-space:pre textLength=486 y=40.65 x=42>golang/云原生/Docker/DevOps/K8S/持续</tspan>
+ <tspan style=white-space:pre textLength=194 y=72.65 x=188>集成/分布式/etcd</tspan>
+ </text>
+ </g>
+ <g ed:width=228 ed:height=37.55 id=104 transform=matrix(1,0,0,1,636.88,31.45) ed:layout=map ed:parentid=101>
+ <path d=M0,0L228,0L228,37.5L0,37.5L0,0z fill=#ffffff></path>
+ <path stroke-linejoin=round d=M0,37.5L228,37.5 stroke-width=2 stroke=#508ae1 fill=none></path>
+ <text class=st2>
+ <tspan style=white-space:pre textLength=198 y=25.2 x=17>Go编程基础与核心技能</tspan>
+ </text>
+ </g>
+ <g ed:width=191.2 ed:height=37.55 id=106 transform=matrix(1,0,0,1,953.48,31.45) ed:layout=map ed:parentid=101>
+ <path d=M0,0L191.2,0L191.2,37.5L0,37.5L0,0z fill=#ffffff></path>
+ <path stroke-linejoin=round d=M0,37.5L191.2,37.5 stroke-width=2 stroke=#f5a7ae fill=none></path>
+ <text class=st2>
+ <tspan style=white-space:pre textLength=160 y=25.2 x=17>Go后台中间件编程</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=108 transform=matrix(1,0,0,1,682.88,93.75) ed:layout=map ed:parentid=104>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>语法基础</tspan>
+ </text>
+ </g>
+ <g ed:width=283.2 ed:height=37.55 id=110 transform=matrix(1,0,0,1,1582.08,31.45) ed:layout=map ed:parentid=101>
+ <path d=M0,0L283.2,0L283.2,37.5L0,37.5L0,0z fill=#ffffff></path>
+ <path stroke-linejoin=round d=M0,37.5L283.2,37.5 stroke-width=2 stroke=#00b050 fill=none></path>
+ <text class=st2>
+ <tspan style=white-space:pre textLength=255 y=25.2 x=17>Go项目实战开发（解决方案）</tspan>
+ </text>
+ </g>
+ <g ed:width=117.6 ed:height=37.55 id=112 transform=matrix(1,0,0,1,2081.88,31.45) ed:layout=map ed:parentid=101>
+ <path d=M0,0L117.6,0L117.6,37.5L0,37.5L0,0z fill=#ffffff></path>
+ <path stroke-linejoin=round d=M0,37.5L117.6,37.5 stroke-width=2 stroke=#da9915 fill=none></path>
+ <text class=st2>
+ <tspan style=white-space:pre textLength=84 y=25.2 x=17>Go云原生</tspan>
+ </text>
+ </g>
+ <g ed:width=164.8 ed:height=37.55 id=116 transform=matrix(1,0,0,1,2710.48,31.45) ed:layout=map ed:parentid=101>
+ <path d=M0,0L164.8,0L164.8,37.5L0,37.5L0,0z fill=#ffffff></path>
+ <path stroke-linejoin=round d=M0,37.5L164.8,37.5 stroke-width=2 stroke=#5c9dff fill=none></path>
+ <text class=st2>
+ <tspan style=white-space:pre textLength=133 y=25.2 x=17>公有云项目实战</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=120 transform=matrix(1,0,0,1,710.48,134.4) ed:layout=map ed:parentid=108>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>错误处理</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=122 transform=matrix(1,0,0,1,710.48,167.55) ed:layout=map ed:parentid=108>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>包定义以及导入</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=124 transform=matrix(1,0,0,1,710.48,200.7) ed:layout=map ed:parentid=108>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>结构体定义</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=126 transform=matrix(1,0,0,1,710.48,233.85) ed:layout=map ed:parentid=108>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>反射原理</tspan>
+ </text>
+ </g>
+ <g ed:width=47.2 ed:height=23.4 id=128 transform=matrix(1,0,0,1,710.48,267) ed:layout=map ed:parentid=108>
+ <path d=M0,0L47.2,0L47.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=26 y=16.95 x=9>闭包</tspan>
+ </text>
+ </g>
+ <g ed:width=204 ed:height=23.4 id=130 transform=matrix(1,0,0,1,710.48,300.15) ed:layout=map ed:parentid=108>
+ <path d=M0,0L204,0L204,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=175 y=16.95 x=9>值传递，引用传递，defer函数</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=132 transform=matrix(1,0,0,1,682.88,333.3) ed:layout=map ed:parentid=104>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>并发编程</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=134 transform=matrix(1,0,0,1,682.88,539.7) ed:layout=map ed:parentid=104>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>网络编程</tspan>
+ </text>
+ </g>
+ <g ed:width=73.59999999999999 ed:height=23.4 id=136 transform=matrix(1,0,0,1,682.88,712.95) ed:layout=map ed:parentid=104>
+ <path d=M0,0L73.6,0L73.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>http编程</tspan>
+ </text>
+ </g>
+ <g ed:width=60.8 ed:height=23.4 id=138 transform=matrix(1,0,0,1,682.88,819.9) ed:layout=map ed:parentid=104>
+ <path d=M0,0L60.8,0L60.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=39 y=16.95 x=9>对象池</tspan>
+ </text>
+ </g>
+ <g ed:width=84 ed:height=23.4 id=140 transform=matrix(1,0,0,1,710.48,373.95) ed:layout=map ed:parentid=132>
+ <path d=M0,0L84,0L84,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=60 y=16.95 x=9>goroutine</tspan>
+ </text>
+ </g>
+ <g ed:width=156 ed:height=23.4 id=142 transform=matrix(1,0,0,1,710.48,407.1) ed:layout=map ed:parentid=132>
+ <path d=M0,0L156,0L156,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=130 y=16.95 x=9>锁（读写锁、互斥锁）</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=144 transform=matrix(1,0,0,1,710.48,440.25) ed:layout=map ed:parentid=132>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>通道 channel</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=146 transform=matrix(1,0,0,1,710.48,473.4) ed:layout=map ed:parentid=132>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>runtime 包解析</tspan>
+ </text>
+ </g>
+ <g ed:width=127.2 ed:height=23.4 id=148 transform=matrix(1,0,0,1,710.48,506.55) ed:layout=map ed:parentid=132>
+ <path d=M0,0L127.2,0L127.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=103 y=16.95 x=9>context 使用原则</tspan>
+ </text>
+ </g>
+ <g ed:width=72 ed:height=23.4 id=150 transform=matrix(1,0,0,1,710.48,580.35) ed:layout=map ed:parentid=134>
+ <path d=M0,0L72,0L72,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=50 y=16.95 x=9>tcp 编程</tspan>
+ </text>
+ </g>
+ <g ed:width=76.8 ed:height=23.4 id=152 transform=matrix(1,0,0,1,710.48,613.5) ed:layout=map ed:parentid=134>
+ <path d=M0,0L76.8,0L76.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=54 y=16.95 x=9>udp 编程</tspan>
+ </text>
+ </g>
+ <g ed:width=77.59999999999999 ed:height=23.4 id=154 transform=matrix(1,0,0,1,710.48,646.65) ed:layout=map ed:parentid=134>
+ <path d=M0,0L77.6,0L77.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=56 y=16.95 x=9>http 实现</tspan>
+ </text>
+ </g>
+ <g ed:width=89.59999999999999 ed:height=23.4 id=156 transform=matrix(1,0,0,1,710.48,679.8) ed:layout=map ed:parentid=134>
+ <path d=M0,0L89.6,0L89.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>websocket</tspan>
+ </text>
+ </g>
+ <g ed:width=184 ed:height=23.4 id=158 transform=matrix(1,0,0,1,710.48,753.6) ed:layout=map ed:parentid=136>
+ <path d=M0,0L184,0L184,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=155 y=16.95 x=9>post、get、head请求处理</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=160 transform=matrix(1,0,0,1,710.48,786.75) ed:layout=map ed:parentid=136>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=77 y=16.95 x=9>简单web模板</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=162 transform=matrix(1,0,0,1,710.48,860.55) ed:layout=map ed:parentid=138>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>原理分析</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=164 transform=matrix(1,0,0,1,710.48,893.7) ed:layout=map ed:parentid=138>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>应用和性能测试</tspan>
+ </text>
+ </g>
+ <g ed:width=52 ed:height=23.4 id=166 transform=matrix(1,0,0,1,999.48,93.75) ed:layout=map ed:parentid=106>
+ <path d=M0,0L52,0L52,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=29 y=16.95 x=9>redis</tspan>
+ </text>
+ </g>
+ <g ed:width=59.2 ed:height=23.4 id=168 transform=matrix(1,0,0,1,999.48,366.45) ed:layout=map ed:parentid=106>
+ <path d=M0,0L59.2,0L59.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=36 y=16.95 x=9>mysql</tspan>
+ </text>
+ </g>
+ <g ed:width=84.8 ed:height=23.4 id=170 transform=matrix(1,0,0,1,999.48,804.9) ed:layout=map ed:parentid=106>
+ <path d=M0,0L84.8,0L84.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=60 y=16.95 x=9>mongodb</tspan>
+ </text>
+ </g>
+ <g ed:width=53.6 ed:height=23.4 id=172 transform=matrix(1,0,0,1,999.48,1044.45) ed:layout=map ed:parentid=106>
+ <path d=M0,0L53.6,0L53.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=33 y=16.95 x=9>kafka</tspan>
+ </text>
+ </g>
+ <g ed:width=48.8 ed:height=23.4 id=174 transform=matrix(1,0,0,1,999.48,1236.1) ed:layout=map ed:parentid=106>
+ <path d=M0,0L48.8,0L48.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=27 y=16.95 x=9>etcd</tspan>
+ </text>
+ </g>
+ <g ed:width=103.2 ed:height=23.4 id=176 transform=matrix(1,0,0,1,999.48,1508.8) ed:layout=map ed:parentid=106>
+ <path d=M0,0L103.2,0L103.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>elasticsearch</tspan>
+ </text>
+ </g>
+ <g ed:width=49.6 ed:height=23.4 id=178 transform=matrix(1,0,0,1,999.48,1700.45) ed:layout=map ed:parentid=106>
+ <path d=M0,0L49.6,0L49.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=28 y=16.95 x=9>grpc</tspan>
+ </text>
+ </g>
+ <g ed:width=71.2 ed:height=23.4 id=180 transform=matrix(1,0,0,1,999.48,1940) ed:layout=map ed:parentid=106>
+ <path d=M0,0L71.2,0L71.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=49 y=16.95 x=9>http gin</tspan>
+ </text>
+ </g>
+ <g ed:width=55.2 ed:height=23.4 id=182 transform=matrix(1,0,0,1,999.48,2279) ed:layout=map ed:parentid=106>
+ <path d=M0,0L55.2,0L55.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=33 y=16.95 x=9>gorm</tspan>
+ </text>
+ </g>
+ <g ed:width=174.4 ed:height=23.4 id=184 transform=matrix(1,0,0,1,1027.08,134.4) ed:layout=map ed:parentid=166>
+ <path d=M0,0L174.4,0L174.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=146 y=16.95 x=9>redis整体结构、存储结构</tspan>
+ </text>
+ </g>
+ <g ed:width=428 ed:height=23.4 id=186 transform=matrix(1,0,0,1,1027.08,167.55) ed:layout=map ed:parentid=166>
+ <path d=M0,0L428,0L428,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=390 y=16.95 x=9>string 命令及存储原理，对象存储、累加器、分布式锁、位运算应用</tspan>
+ </text>
+ </g>
+ <g ed:width=464.8 ed:height=23.4 id=188 transform=matrix(1,0,0,1,1027.08,200.7) ed:layout=map ed:parentid=166>
+ <path d=M0,0L464.8,0L464.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=424 y=16.95 x=9>list 命令及存储原理，栈、队列、异步队列、阻塞队列、固定窗口记录应用</tspan>
+ </text>
+ </g>
+ <g ed:width=244 ed:height=23.4 id=190 transform=matrix(1,0,0,1,1027.08,233.85) ed:layout=map ed:parentid=166>
+ <path d=M0,0L244,0L244,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=215 y=16.95 x=9>hash 命令及存储原理，对象存储应用</tspan>
+ </text>
+ </g>
+ <g ed:width=389.6 ed:height=23.4 id=192 transform=matrix(1,0,0,1,1027.08,300.15) ed:layout=map ed:parentid=166>
+ <path d=M0,0L389.6,0L389.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=353 y=16.95 x=9>zset 命令及存储原理，排行榜、延迟队列、时间窗口限流应用</tspan>
+ </text>
+ </g>
+ <g ed:width=324.8 ed:height=23.4 id=194 transform=matrix(1,0,0,1,1027.08,333.3) ed:layout=map ed:parentid=166>
+ <path d=M0,0L324.8,0L324.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=289 y=16.95 x=9>redigo基本操作，管道和事务，发布订阅、stream</tspan>
+ </text>
+ </g>
+ <g ed:width=301.6 ed:height=23.4 id=196 transform=matrix(1,0,0,1,1027.08,267) ed:layout=map ed:parentid=166>
+ <path d=M0,0L301.6,0L301.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=269 y=16.95 x=9>set 命令及存储原理，唯一无序应用、关系应用</tspan>
+ </text>
+ </g>
+ <g ed:width=294.4 ed:height=23.4 id=198 transform=matrix(1,0,0,1,1027.08,407.1) ed:layout=map ed:parentid=168>
+ <path d=M0,0L294.4,0L294.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=263 y=16.95 x=9>OLTP、OLAP、体系结构、连接池、事务介绍</tspan>
+ </text>
+ </g>
+ <g ed:width=303.2 ed:height=23.4 id=200 transform=matrix(1,0,0,1,1027.08,440.25) ed:layout=map ed:parentid=168>
+ <path d=M0,0L303.2,0L303.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=271 y=16.95 x=9>基本操作：表创建删除、数据表操作（CRUD）</tspan>
+ </text>
+ </g>
+ <g ed:width=373.6 ed:height=23.4 id=202 transform=matrix(1,0,0,1,1027.08,473.4) ed:layout=map ed:parentid=168>
+ <path d=M0,0L373.6,0L373.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=338 y=16.95 x=9>表查询及案例：基础查询、聚合查询、分组查询、联表查询</tspan>
+ </text>
+ </g>
+ <g ed:width=319.2 ed:height=23.4 id=204 transform=matrix(1,0,0,1,1027.08,506.55) ed:layout=map ed:parentid=168>
+ <path d=M0,0L319.2,0L319.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=286 y=16.95 x=9>索引：主键索引、唯一索引、普通索引、组合索引</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=206 transform=matrix(1,0,0,1,1027.08,539.7) ed:layout=map ed:parentid=168>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>索引与约束</tspan>
+ </text>
+ </g>
+ <g ed:width=194.4 ed:height=23.4 id=208 transform=matrix(1,0,0,1,1027.08,572.85) ed:layout=map ed:parentid=168>
+ <path d=M0,0L194.4,0L194.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=167 y=16.95 x=9>索引实现-存储结构以及B+树</tspan>
+ </text>
+ </g>
+ <g ed:width=183.2 ed:height=23.4 id=210 transform=matrix(1,0,0,1,1027.08,606) ed:layout=map ed:parentid=168>
+ <path d=M0,0L183.2,0L183.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=156 y=16.95 x=9>最左匹配原则以及覆盖索引</tspan>
+ </text>
+ </g>
+ <g ed:width=209.6 ed:height=23.4 id=212 transform=matrix(1,0,0,1,1027.08,639.15) ed:layout=map ed:parentid=168>
+ <path d=M0,0L209.6,0L209.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=182 y=16.95 x=9>索引失效、索引优化、SQL优化</tspan>
+ </text>
+ </g>
+ <g ed:width=189.6 ed:height=23.4 id=214 transform=matrix(1,0,0,1,1027.08,672.3) ed:layout=map ed:parentid=168>
+ <path d=M0,0L189.6,0L189.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=160 y=16.95 x=9>explain分析以及慢日志查询</tspan>
+ </text>
+ </g>
+ <g ed:width=305.6 ed:height=23.4 id=216 transform=matrix(1,0,0,1,1027.08,705.45) ed:layout=map ed:parentid=168>
+ <path d=M0,0L305.6,0L305.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=272 y=16.95 x=9>事务控制语句，事务的acid特性，事务隔离级别</tspan>
+ </text>
+ </g>
+ <g ed:width=394.4 ed:height=23.4 id=218 transform=matrix(1,0,0,1,1027.08,738.6) ed:layout=map ed:parentid=168>
+ <path d=M0,0L394.4,0L394.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=358 y=16.95 x=9>锁以及mvcc原理：加锁流程、释放锁流程，当前读以及快照读</tspan>
+ </text>
+ </g>
+ <g ed:width=210.4 ed:height=23.4 id=220 transform=matrix(1,0,0,1,1027.08,771.75) ed:layout=map ed:parentid=168>
+ <path d=M0,0L210.4,0L210.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=182 y=16.95 x=9>读异常、死锁原理以及案例分析</tspan>
+ </text>
+ </g>
+ <g ed:width=148 ed:height=23.4 id=222 transform=matrix(1,0,0,1,1027.08,845.55) ed:layout=map ed:parentid=170>
+ <path d=M0,0L148,0L148,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=120 y=16.95 x=9>mongodb bson解析</tspan>
+ </text>
+ </g>
+ <g ed:width=148.8 ed:height=23.4 id=224 transform=matrix(1,0,0,1,1027.08,878.7) ed:layout=map ed:parentid=170>
+ <path d=M0,0L148.8,0L148.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=122 y=16.95 x=9>mongodb crud 操作</tspan>
+ </text>
+ </g>
+ <g ed:width=306.4 ed:height=23.4 id=226 transform=matrix(1,0,0,1,1027.08,911.85) ed:layout=map ed:parentid=170>
+ <path d=M0,0L306.4,0L306.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=272 y=16.95 x=9>mongodb 索引操作、复合索引查询、聚合查询</tspan>
+ </text>
+ </g>
+ <g ed:width=143.2 ed:height=23.4 id=228 transform=matrix(1,0,0,1,1027.08,945) ed:layout=map ed:parentid=170>
+ <path d=M0,0L143.2,0L143.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=116 y=16.95 x=9>mongodb 文档管理</tspan>
+ </text>
+ </g>
+ <g ed:width=175.2 ed:height=23.4 id=230 transform=matrix(1,0,0,1,1027.08,978.15) ed:layout=map ed:parentid=170>
+ <path d=M0,0L175.2,0L175.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=145 y=16.95 x=9>mongodb go driver操作</tspan>
+ </text>
+ </g>
+ <g ed:width=156.8 ed:height=23.4 id=232 transform=matrix(1,0,0,1,1027.08,1011.3) ed:layout=map ed:parentid=170>
+ <path d=M0,0L156.8,0L156.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=129 y=16.95 x=9>mongodb 连接池实现</tspan>
+ </text>
+ </g>
+ <g ed:width=84.8 ed:height=23.4 id=234 transform=matrix(1,0,0,1,1027.08,1085.1) ed:layout=map ed:parentid=172>
+ <path d=M0,0L84.8,0L84.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=63 y=16.95 x=9>kafka 介绍</tspan>
+ </text>
+ </g>
+ <g ed:width=193.6 ed:height=23.4 id=236 transform=matrix(1,0,0,1,1027.08,1118.25) ed:layout=map ed:parentid=172>
+ <path d=M0,0L193.6,0L193.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=167 y=16.95 x=9>kafka 体系结构以及读写机制</tspan>
+ </text>
+ </g>
+ <g ed:width=407.2 ed:height=23.4 id=238 transform=matrix(1,0,0,1,1027.08,1151.4) ed:layout=map ed:parentid=172>
+ <path d=M0,0L407.2,0L407.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=371 y=16.95 x=9>kafka典型应用场景：异步处理、系统解耦、流量削峰、日志处理</tspan>
+ </text>
+ </g>
+ <g ed:width=516 ed:height=41.8 id=240 transform=matrix(1,0,0,1,1027.08,1184.55) ed:layout=map ed:parentid=172>
+ <path d=M0,0L516,0L516,41.8L0,41.8L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=471 y=16.95 x=9>kafka 驱动包操作：生产者消息生产策略、生产者 ack 策略、消费者组 rebalance </tspan>
+ <tspan style=white-space:pre textLength=26 y=35.35 x=9>机制</tspan>
+ </text>
+ </g>
+ <g ed:width=228.8 ed:height=23.4 id=242 transform=matrix(1,0,0,1,1027.08,1276.75) ed:layout=map ed:parentid=174>
+ <path d=M0,0L228.8,0L228.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=200 y=16.95 x=9>etcd v2与v3 比较，etcd 体系结构</tspan>
+ </text>
+ </g>
+ <g ed:width=368 ed:height=23.4 id=244 transform=matrix(1,0,0,1,1027.08,1309.9) ed:layout=map ed:parentid=174>
+ <path d=M0,0L368,0L368,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=333 y=16.95 x=9>etcd APIs：数据版本号机制、CURD、 监听、事务、租约</tspan>
+ </text>
+ </g>
+ <g ed:width=140 ed:height=23.4 id=246 transform=matrix(1,0,0,1,1027.08,1343.05) ed:layout=map ed:parentid=174>
+ <path d=M0,0L140,0L140,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=114 y=16.95 x=9>etcd 索引以及B+树</tspan>
+ </text>
+ </g>
+ <g ed:width=256.8 ed:height=23.4 id=248 transform=matrix(1,0,0,1,1027.08,1376.2) ed:layout=map ed:parentid=174>
+ <path d=M0,0L256.8,0L256.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=227 y=16.95 x=9>etcd 读写机制以及事务 ACID 特性分析</tspan>
+ </text>
+ </g>
+ <g ed:width=374.4 ed:height=23.4 id=250 transform=matrix(1,0,0,1,1027.08,1409.35) ed:layout=map ed:parentid=174>
+ <path d=M0,0L374.4,0L374.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=338 y=16.95 x=9>Raft共识算法：leader选举和日志复制，Raft 运行机理详解</tspan>
+ </text>
+ </g>
+ <g ed:width=138.4 ed:height=23.4 id=252 transform=matrix(1,0,0,1,1027.08,1442.5) ed:layout=map ed:parentid=174>
+ <path d=M0,0L138.4,0L138.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=112 y=16.95 x=9>etcd go驱动包操作</tspan>
+ </text>
+ </g>
+ <g ed:width=392.8 ed:height=23.4 id=254 transform=matrix(1,0,0,1,1027.08,1475.65) ed:layout=map ed:parentid=174>
+ <path d=M0,0L392.8,0L392.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=354 y=16.95 x=9>etcd 典型应用：服务发现、负载均衡、leader选举、分布式锁</tspan>
+ </text>
+ </g>
+ <g ed:width=325.6 ed:height=23.4 id=256 transform=matrix(1,0,0,1,1027.08,1549.45) ed:layout=map ed:parentid=176>
+ <path d=M0,0L325.6,0L325.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=289 y=16.95 x=9>es 介绍：倒排索引、lucene、es-head以及kibana</tspan>
+ </text>
+ </g>
+ <g ed:width=483.2 ed:height=23.4 id=258 transform=matrix(1,0,0,1,1027.08,1582.6) ed:layout=map ed:parentid=176>
+ <path d=M0,0L483.2,0L483.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=441 y=16.95 x=9>es 集群以及原理：集群健康值检查、es 索引操作以及文档操作、es 读写机制</tspan>
+ </text>
+ </g>
+ <g ed:width=419.2 ed:height=23.4 id=260 transform=matrix(1,0,0,1,1027.08,1615.75) ed:layout=map ed:parentid=176>
+ <path d=M0,0L419.2,0L419.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=381 y=16.95 x=9>es 查询：匹配查询、范围查询、多条件查询、中文分词、聚合查询</tspan>
+ </text>
+ </g>
+ <g ed:width=516 ed:height=41.8 id=262 transform=matrix(1,0,0,1,1027.08,1648.9) ed:layout=map ed:parentid=176>
+ <path d=M0,0L516,0L516,41.8L0,41.8L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=460 y=16.95 x=9>es 应用：es go驱动包操作、索引以及文档操作、es 高级查询：term、match、</tspan>
+ <tspan style=white-space:pre textLength=74 y=35.35 x=9>aggregation</tspan>
+ </text>
+ </g>
+ <g ed:width=465.6 ed:height=23.4 id=264 transform=matrix(1,0,0,1,1027.08,1741.1) ed:layout=map ed:parentid=178>
+ <path d=M0,0L465.6,0L465.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=426 y=16.95 x=9>grpc 体系结构，grpc 典型应用，protobuffer 语法、生成编译、模板接口</tspan>
+ </text>
+ </g>
+ <g ed:width=271.2 ed:height=23.4 id=266 transform=matrix(1,0,0,1,1027.08,1774.25) ed:layout=map ed:parentid=178>
+ <path d=M0,0L271.2,0L271.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=240 y=16.95 x=9>grpc 关键特性：拦截器、超时控制，重试</tspan>
+ </text>
+ </g>
+ <g ed:width=220.8 ed:height=23.4 id=268 transform=matrix(1,0,0,1,1027.08,1807.4) ed:layout=map ed:parentid=178>
+ <path d=M0,0L220.8,0L220.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=194 y=16.95 x=9>unary API 细节处理以及应用场景</tspan>
+ </text>
+ </g>
+ <g ed:width=269.6 ed:height=23.4 id=270 transform=matrix(1,0,0,1,1027.08,1840.55) ed:layout=map ed:parentid=178>
+ <path d=M0,0L269.6,0L269.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=238 y=16.95 x=9>client stream API 细节处理以及应用场景</tspan>
+ </text>
+ </g>
+ <g ed:width=272.8 ed:height=23.4 id=272 transform=matrix(1,0,0,1,1027.08,1873.7) ed:layout=map ed:parentid=178>
+ <path d=M0,0L272.8,0L272.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=242 y=16.95 x=9>server stream API 细节处理以及应用场景</tspan>
+ </text>
+ </g>
+ <g ed:width=316 ed:height=23.4 id=274 transform=matrix(1,0,0,1,1027.08,1906.85) ed:layout=map ed:parentid=178>
+ <path d=M0,0L316,0L316,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=280 y=16.95 x=9>bidirectional stream API 细节处理以及应用场景</tspan>
+ </text>
+ </g>
+ <g ed:width=95.2 ed:height=23.4 id=276 transform=matrix(1,0,0,1,1027.08,1980.65) ed:layout=map ed:parentid=180>
+ <path d=M0,0L95.2,0L95.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=71 y=16.95 x=9>gin框架分析</tspan>
+ </text>
+ </g>
+ <g ed:width=121.6 ed:height=23.4 id=278 transform=matrix(1,0,0,1,1027.08,2013.8) ed:layout=map ed:parentid=180>
+ <path d=M0,0L121.6,0L121.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=97 y=16.95 x=9>RESTful API实践</tspan>
+ </text>
+ </g>
+ <g ed:width=100.8 ed:height=23.4 id=280 transform=matrix(1,0,0,1,1027.08,2046.95) ed:layout=map ed:parentid=180>
+ <path d=M0,0L100.8,0L100.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=77 y=16.95 x=9>URL参数查询</tspan>
+ </text>
+ </g>
+ <g ed:width=154.4 ed:height=23.4 id=282 transform=matrix(1,0,0,1,1027.08,2080.1) ed:layout=map ed:parentid=180>
+ <path d=M0,0L154.4,0L154.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=128 y=16.95 x=9>query接收数组和Map</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=284 transform=matrix(1,0,0,1,1027.08,2113.25) ed:layout=map ed:parentid=180>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>表单参数处理</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=286 transform=matrix(1,0,0,1,1027.08,2146.4) ed:layout=map ed:parentid=180>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>上传文件</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=288 transform=matrix(1,0,0,1,1027.08,2179.55) ed:layout=map ed:parentid=180>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>分组路由</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=290 transform=matrix(1,0,0,1,1027.08,2212.7) ed:layout=map ed:parentid=180>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>中间件鉴权</tspan>
+ </text>
+ </g>
+ <g ed:width=241.6 ed:height=23.4 id=292 transform=matrix(1,0,0,1,1027.08,2245.85) ed:layout=map ed:parentid=180>
+ <path d=M0,0L241.6,0L241.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=209 y=16.95 x=9>json、xml、yaml、protobuf序列化</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=294 transform=matrix(1,0,0,1,1027.08,2319.65) ed:layout=map ed:parentid=182>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>数据库连接</tspan>
+ </text>
+ </g>
+ <g ed:width=60.8 ed:height=23.4 id=296 transform=matrix(1,0,0,1,1027.08,2352.8) ed:layout=map ed:parentid=182>
+ <path d=M0,0L60.8,0L60.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=39 y=16.95 x=9>创建表</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=298 transform=matrix(1,0,0,1,1027.08,2385.95) ed:layout=map ed:parentid=182>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>增删改查</tspan>
+ </text>
+ </g>
+ <g ed:width=47.2 ed:height=23.4 id=300 transform=matrix(1,0,0,1,1027.08,2419.1) ed:layout=map ed:parentid=182>
+ <path d=M0,0L47.2,0L47.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=26 y=16.95 x=9>事务</tspan>
+ </text>
+ </g>
+ <g ed:width=142.4 ed:height=23.4 id=303 transform=matrix(1,0,0,1,1628.08,93.75) ed:layout=map ed:parentid=110>
+ <path d=M0,0L142.4,0L142.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=117 y=16.95 x=9>微信后台公众号实战</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=305 transform=matrix(1,0,0,1,1628.08,366.45) ed:layout=map ed:parentid=110>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>流媒体网站开发</tspan>
+ </text>
+ </g>
+ <g ed:width=80.8 ed:height=23.4 id=307 transform=matrix(1,0,0,1,1628.08,705.45) ed:layout=map ed:parentid=110>
+ <path d=M0,0L80.8,0L80.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=60 y=16.95 x=9>OAuth2.0</tspan>
+ </text>
+ </g>
+ <g ed:width=144.8 ed:height=23.4 id=309 transform=matrix(1,0,0,1,1628.08,878.7) ed:layout=map ed:parentid=110>
+ <path d=M0,0L144.8,0L144.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=118 y=16.95 x=9>Admin后台管理系统</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=311 transform=matrix(1,0,0,1,1628.08,1250.85) ed:layout=map ed:parentid=110>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>分布式日志系统</tspan>
+ </text>
+ </g>
+ <g ed:width=163.2 ed:height=23.4 id=313 transform=matrix(1,0,0,1,1628.08,1490.4) ed:layout=map ed:parentid=110>
+ <path d=M0,0L163.2,0L163.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=135 y=16.95 x=9>goim千万级高并发推送</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=315 transform=matrix(1,0,0,1,1655.68,134.4) ed:layout=map ed:parentid=303>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>公众号开发逻辑</tspan>
+ </text>
+ </g>
+ <g ed:width=183.2 ed:height=23.4 id=317 transform=matrix(1,0,0,1,1655.68,167.55) ed:layout=map ed:parentid=303>
+ <path d=M0,0L183.2,0L183.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=156 y=16.95 x=9>注册、权限处理、消息回复</tspan>
+ </text>
+ </g>
+ <g ed:width=163.2 ed:height=23.4 id=319 transform=matrix(1,0,0,1,1655.68,200.7) ed:layout=map ed:parentid=303>
+ <path d=M0,0L163.2,0L163.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=137 y=16.95 x=9>http get方法token认证</tspan>
+ </text>
+ </g>
+ <g ed:width=188 ed:height=23.4 id=321 transform=matrix(1,0,0,1,1655.68,233.85) ed:layout=map ed:parentid=303>
+ <path d=M0,0L188,0L188,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=161 y=16.95 x=9>http post方法处理消息回复</tspan>
+ </text>
+ </g>
+ <g ed:width=169.6 ed:height=23.4 id=323 transform=matrix(1,0,0,1,1655.68,267) ed:layout=map ed:parentid=303>
+ <path d=M0,0L169.6,0L169.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=143 y=16.95 x=9>微信公众号签名验证方法</tspan>
+ </text>
+ </g>
+ <g ed:width=164 ed:height=23.4 id=325 transform=matrix(1,0,0,1,1655.68,300.15) ed:layout=map ed:parentid=303>
+ <path d=M0,0L164,0L164,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=137 y=16.95 x=9>XML解析、CDATA解析</tspan>
+ </text>
+ </g>
+ <g ed:width=292 ed:height=23.4 id=327 transform=matrix(1,0,0,1,1655.68,333.3) ed:layout=map ed:parentid=303>
+ <path d=M0,0L292,0L292,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=260 y=16.95 x=9>交换协议、接收消息协议、被动回复消息协议</tspan>
+ </text>
+ </g>
+ <g ed:width=142.4 ed:height=23.4 id=329 transform=matrix(1,0,0,1,1655.68,407.1) ed:layout=map ed:parentid=305>
+ <path d=M0,0L142.4,0L142.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=117 y=16.95 x=9>流媒体直播框架分析</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=331 transform=matrix(1,0,0,1,1655.68,440.25) ed:layout=map ed:parentid=305>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>前后端分离设计</tspan>
+ </text>
+ </g>
+ <g ed:width=288.8 ed:height=23.4 id=333 transform=matrix(1,0,0,1,1655.68,473.4) ed:layout=map ed:parentid=305>
+ <path d=M0,0L288.8,0L288.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=257 y=16.95 x=9>RESET API设计，包括用户、视频、评论处理</tspan>
+ </text>
+ </g>
+ <g ed:width=278.4 ed:height=23.4 id=335 transform=matrix(1,0,0,1,1655.68,506.55) ed:layout=map ed:parentid=305>
+ <path d=M0,0L278.4,0L278.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=247 y=16.95 x=9>用户、评论、会话、待删除视频数据库设计</tspan>
+ </text>
+ </g>
+ <g ed:width=180.8 ed:height=23.4 id=337 transform=matrix(1,0,0,1,1655.68,539.7) ed:layout=map ed:parentid=305>
+ <path d=M0,0L180.8,0L180.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=150 y=16.95 x=9>meddleware handler机制</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=339 transform=matrix(1,0,0,1,1655.68,572.85) ed:layout=map ed:parentid=305>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>登录注册</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=341 transform=matrix(1,0,0,1,1655.68,606) ed:layout=map ed:parentid=305>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>视频上传</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=343 transform=matrix(1,0,0,1,1655.68,639.15) ed:layout=map ed:parentid=305>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>视频评论</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=345 transform=matrix(1,0,0,1,1655.68,672.3) ed:layout=map ed:parentid=305>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>流控算法</tspan>
+ </text>
+ </g>
+ <g ed:width=166.4 ed:height=23.4 id=347 transform=matrix(1,0,0,1,1655.68,746.1) ed:layout=map ed:parentid=307>
+ <path d=M0,0L166.4,0L166.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=142 y=16.95 x=9>OAuth2.0 协议流程分析</tspan>
+ </text>
+ </g>
+ <g ed:width=387.2 ed:height=23.4 id=349 transform=matrix(1,0,0,1,1655.68,779.25) ed:layout=map ed:parentid=307>
+ <path d=M0,0L387.2,0L387.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=351 y=16.95 x=9>授权码、隐藏式、密码式、客户端凭证流程分析以及应用场景</tspan>
+ </text>
+ </g>
+ <g ed:width=265.6 ed:height=23.4 id=351 transform=matrix(1,0,0,1,1655.68,812.4) ed:layout=map ed:parentid=307>
+ <path d=M0,0L265.6,0L265.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=234 y=16.95 x=9>授权码详细流程分析以及restful api 详解</tspan>
+ </text>
+ </g>
+ <g ed:width=201.6 ed:height=23.4 id=353 transform=matrix(1,0,0,1,1655.68,845.55) ed:layout=map ed:parentid=307>
+ <path d=M0,0L201.6,0L201.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=175 y=16.95 x=9>go OAuth2.0 第三方登录应用</tspan>
+ </text>
+ </g>
+ <g ed:width=140.8 ed:height=23.4 id=355 transform=matrix(1,0,0,1,1655.68,919.35) ed:layout=map ed:parentid=309>
+ <path d=M0,0L140.8,0L140.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=114 y=16.95 x=9>Go Admin工程安装</tspan>
+ </text>
+ </g>
+ <g ed:width=156 ed:height=23.4 id=357 transform=matrix(1,0,0,1,1655.68,952.5) ed:layout=map ed:parentid=309>
+ <path d=M0,0L156,0L156,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=130 y=16.95 x=9>架构分析和各模块精讲</tspan>
+ </text>
+ </g>
+ <g ed:width=124.8 ed:height=23.4 id=359 transform=matrix(1,0,0,1,1655.68,985.65) ed:layout=map ed:parentid=309>
+ <path d=M0,0L124.8,0L124.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=100 y=16.95 x=9>cobra命令行实战</tspan>
+ </text>
+ </g>
+ <g ed:width=116 ed:height=23.4 id=361 transform=matrix(1,0,0,1,1655.68,1018.8) ed:layout=map ed:parentid=309>
+ <path d=M0,0L116,0L116,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>casbin权限管理</tspan>
+ </text>
+ </g>
+ <g ed:width=164.8 ed:height=23.4 id=363 transform=matrix(1,0,0,1,1655.68,1051.95) ed:layout=map ed:parentid=309>
+ <path d=M0,0L164.8,0L164.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=138 y=16.95 x=9>RBAC实践、多租户实践</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=365 transform=matrix(1,0,0,1,1655.68,1085.1) ed:layout=map ed:parentid=309>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>添加新应用</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=367 transform=matrix(1,0,0,1,1655.68,1118.25) ed:layout=map ed:parentid=309>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>添加新模块</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=369 transform=matrix(1,0,0,1,1655.68,1151.4) ed:layout=map ed:parentid=309>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>自动生成代码</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=371 transform=matrix(1,0,0,1,1655.68,1184.55) ed:layout=map ed:parentid=309>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>配置权限</tspan>
+ </text>
+ </g>
+ <g ed:width=98.40000000000001 ed:height=23.4 id=373 transform=matrix(1,0,0,1,1655.68,1217.7) ed:layout=map ed:parentid=309>
+ <path d=M0,0L98.4,0L98.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=73 y=16.95 x=9>swagger api</tspan>
+ </text>
+ </g>
+ <g ed:width=183.2 ed:height=23.4 id=375 transform=matrix(1,0,0,1,1655.68,1291.5) ed:layout=map ed:parentid=311>
+ <path d=M0,0L183.2,0L183.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=155 y=16.95 x=9>传统 elk 解决方案及其弊端</tspan>
+ </text>
+ </g>
+ <g ed:width=128.8 ed:height=23.4 id=377 transform=matrix(1,0,0,1,1655.68,1324.65) ed:layout=map ed:parentid=311>
+ <path d=M0,0L128.8,0L128.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=104 y=16.95 x=9>日志收集服务开发</tspan>
+ </text>
+ </g>
+ <g ed:width=162.4 ed:height=23.4 id=379 transform=matrix(1,0,0,1,1655.68,1357.8) ed:layout=map ed:parentid=311>
+ <path d=M0,0L162.4,0L162.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=135 y=16.95 x=9>etcd 管理主要信息收集</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=381 transform=matrix(1,0,0,1,1655.68,1390.95) ed:layout=map ed:parentid=311>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>配置文件热更新</tspan>
+ </text>
+ </g>
+ <g ed:width=112.8 ed:height=23.4 id=383 transform=matrix(1,0,0,1,1655.68,1424.1) ed:layout=map ed:parentid=311>
+ <path d=M0,0L112.8,0L112.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=89 y=16.95 x=9>kafka 日志收集</tspan>
+ </text>
+ </g>
+ <g ed:width=161.6 ed:height=23.4 id=385 transform=matrix(1,0,0,1,1655.68,1457.25) ed:layout=map ed:parentid=311>
+ <path d=M0,0L161.6,0L161.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=134 y=16.95 x=9>elasticsearch 日志分析</tspan>
+ </text>
+ </g>
+ <g ed:width=210.4 ed:height=23.4 id=387 transform=matrix(1,0,0,1,1655.68,1531.05) ed:layout=map ed:parentid=313>
+ <path d=M0,0L210.4,0L210.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=182 y=16.95 x=9>支持单个、多个、广播消息推送</tspan>
+ </text>
+ </g>
+ <g ed:width=381.6 ed:height=23.4 id=389 transform=matrix(1,0,0,1,1655.68,1564.2) ed:layout=map ed:parentid=313>
+ <path d=M0,0L381.6,0L381.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=339 y=16.95 x=9>心跳检测（应用心跳和tcp、keepalive、http log pulling）</tspan>
+ </text>
+ </g>
+ <g ed:width=300 ed:height=23.4 id=391 transform=matrix(1,0,0,1,1655.68,1597.35) ed:layout=map ed:parentid=313>
+ <path d=M0,0L300,0L300,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=267 y=16.95 x=9>接入层支持多协议（websocket，tcp，http）</tspan>
+ </text>
+ </g>
+ <g ed:width=319.2 ed:height=23.4 id=393 transform=matrix(1,0,0,1,1655.68,1630.5) ed:layout=map ed:parentid=313>
+ <path d=M0,0L319.2,0L319.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=282 y=16.95 x=9>可拓扑的架构（job、logic模块可动态无限扩展）</tspan>
+ </text>
+ </g>
+ <g ed:width=177.6 ed:height=23.4 id=395 transform=matrix(1,0,0,1,1655.68,1663.65) ed:layout=map ed:parentid=313>
+ <path d=M0,0L177.6,0L177.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=151 y=16.95 x=9>基于Kafka做异步消息推送</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=397 transform=matrix(1,0,0,1,1655.68,1696.8) ed:layout=map ed:parentid=313>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>注册发现服务</tspan>
+ </text>
+ </g>
+ <g ed:width=213.6 ed:height=23.4 id=399 transform=matrix(1,0,0,1,1655.68,1729.95) ed:layout=map ed:parentid=313>
+ <path d=M0,0L213.6,0L213.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=185 y=16.95 x=9>消息协议设计（基于protobuf）</tspan>
+ </text>
+ </g>
+ <g ed:width=163.2 ed:height=23.4 id=401 transform=matrix(1,0,0,1,1655.68,1763.1) ed:layout=map ed:parentid=313>
+ <path d=M0,0L163.2,0L163.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=135 y=16.95 x=9>goim推送服务架构分析</tspan>
+ </text>
+ </g>
+ <g ed:width=158.4 ed:height=23.4 id=403 transform=matrix(1,0,0,1,1655.68,1796.25) ed:layout=map ed:parentid=313>
+ <path d=M0,0L158.4,0L158.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=132 y=16.95 x=9>grpc客户端服务端编程</tspan>
+ </text>
+ </g>
+ <g ed:width=66.40000000000001 ed:height=23.4 id=405 transform=matrix(1,0,0,1,2127.88,93.75) ed:layout=map ed:parentid=112>
+ <path d=M0,0L66.4,0L66.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=44 y=16.95 x=9>Docker</tspan>
+ </text>
+ </g>
+ <g ed:width=41.6 ed:height=23.4 id=407 transform=matrix(1,0,0,1,2127.88,399.6) ed:layout=map ed:parentid=112>
+ <path d=M0,0L41.6,0L41.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=21 y=16.95 x=9>k8s</tspan>
+ </text>
+ </g>
+ <g ed:width=210.4 ed:height=23.4 id=409 transform=matrix(1,0,0,1,2155.48,134.4) ed:layout=map ed:parentid=405>
+ <path d=M0,0L210.4,0L210.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=182 y=16.95 x=9>基本架构、涉及概念、隔离机制</tspan>
+ </text>
+ </g>
+ <g ed:width=509.6 ed:height=23.4 id=411 transform=matrix(1,0,0,1,2155.48,167.55) ed:layout=map ed:parentid=405>
+ <path d=M0,0L509.6,0L509.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=468 y=16.95 x=9>操作命令及案例：生命周期管理、容器运维操作、镜像及镜像仓库，负载均衡案例</tspan>
+ </text>
+ </g>
+ <g ed:width=242.4 ed:height=23.4 id=413 transform=matrix(1,0,0,1,2155.48,200.7) ed:layout=map ed:parentid=405>
+ <path d=M0,0L242.4,0L242.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=210 y=16.95 x=9>Docker镜像：镜像构建，Dockerfile</tspan>
+ </text>
+ </g>
+ <g ed:width=224 ed:height=23.4 id=415 transform=matrix(1,0,0,1,2155.48,233.85) ed:layout=map ed:parentid=405>
+ <path d=M0,0L224,0L224,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=195 y=16.95 x=9>存储：数据共享、数据备份和还原</tspan>
+ </text>
+ </g>
+ <g ed:width=268.8 ed:height=23.4 id=417 transform=matrix(1,0,0,1,2155.48,300.15) ed:layout=map ed:parentid=405>
+ <path d=M0,0L268.8,0L268.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=236 y=16.95 x=9>Docker Compose：操作命令、配置文件</tspan>
+ </text>
+ </g>
+ <g ed:width=394.4 ed:height=23.4 id=419 transform=matrix(1,0,0,1,2155.48,366.45) ed:layout=map ed:parentid=405>
+ <path d=M0,0L394.4,0L394.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=358 y=16.95 x=9>容器监控与CI/CD：监控命令、监控工具，gitlab持续集成案例</tspan>
+ </text>
+ </g>
+ <g ed:width=196.8 ed:height=23.4 id=421 transform=matrix(1,0,0,1,2155.48,440.25) ed:layout=map ed:parentid=407>
+ <path d=M0,0L196.8,0L196.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=169 y=16.95 x=9>基本概念和术语、安装与升级</tspan>
+ </text>
+ </g>
+ <g ed:width=516 ed:height=41.8 id=423 transform=matrix(1,0,0,1,2155.48,473.4) ed:layout=map ed:parentid=407>
+ <path d=M0,0L516,0L516,41.8L0,41.8L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=465 y=16.95 x=9>kubectl 命令操作：基本语法、基础操作、应用部署、集群管理、故障排除和调试</tspan>
+ <tspan style=white-space:pre textLength=26 y=35.35 x=9>命令</tspan>
+ </text>
+ </g>
+ <g ed:width=100 ed:height=23.4 id=425 transform=matrix(1,0,0,1,2155.48,524.95) ed:layout=map ed:parentid=407>
+ <path d=M0,0L100,0L100,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=76 y=16.95 x=9>Pod定义语法</tspan>
+ </text>
+ </g>
+ <g ed:width=121.6 ed:height=23.4 id=429 transform=matrix(1,0,0,1,2155.48,657.55) ed:layout=map ed:parentid=407>
+ <path d=M0,0L121.6,0L121.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=96 y=16.95 x=9>Service定义语法</tspan>
+ </text>
+ </g>
+ <g ed:width=344.8 ed:height=23.4 id=433 transform=matrix(1,0,0,1,2155.48,591.25) ed:layout=map ed:parentid=407>
+ <path d=M0,0L344.8,0L344.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=310 y=16.95 x=9>Pod中容器健康检查：存活检查、就绪检查、启动检查</tspan>
+ </text>
+ </g>
+ <g ed:width=442.4 ed:height=23.4 id=435 transform=matrix(1,0,0,1,2155.48,624.4) ed:layout=map ed:parentid=407>
+ <path d=M0,0L442.4,0L442.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=399 y=16.95 x=9>Pod的部署：Deployment部署Pod、DaemonSet部署Pod、静态Pod</tspan>
+ </text>
+ </g>
+ <g ed:width=514.4 ed:height=23.4 id=437 transform=matrix(1,0,0,1,2155.48,690.7) ed:layout=map ed:parentid=407>
+ <path d=M0,0L514.4,0L514.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st4>
+ <tspan style=white-space:pre textLength=470 y=16.95 class=st5 x=9>Service的四种发布类型：ClusterIP、NodePort、ExternalName、LoadBalancer</tspan>
+ </text>
+ </g>
+ <g ed:width=336.8 ed:height=23.4 id=439 transform=matrix(1,0,0,1,2155.48,558.1) ed:layout=map ed:parentid=407>
+ <path d=M0,0L336.8,0L336.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st4>
+ <tspan style=white-space:pre textLength=302 y=16.95 class=st5 x=9>Pod中运行容器、Init容器、Pod中容器生命周期函数</tspan>
+ </text>
+ </g>
+ <g ed:width=121.6 ed:height=23.4 id=441 transform=matrix(1,0,0,1,2155.48,723.85) ed:layout=map ed:parentid=407>
+ <path d=M0,0L121.6,0L121.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=96 y=16.95 x=9>无选择符Service</tspan>
+ </text>
+ </g>
+ <g ed:width=324.8 ed:height=23.4 id=443 transform=matrix(1,0,0,1,2155.48,757) ed:layout=map ed:parentid=407>
+ <path d=M0,0L324.8,0L324.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=288 y=16.95 x=9>无头Service：有选择符Service、无选择符Service</tspan>
+ </text>
+ </g>
+ <g ed:width=121.6 ed:height=23.4 id=447 transform=matrix(1,0,0,1,2155.48,790.15) ed:layout=map ed:parentid=407>
+ <path d=M0,0L121.6,0L121.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=96 y=16.95 x=9>Service发现机制</tspan>
+ </text>
+ </g>
+ <g ed:width=125.6 ed:height=23.4 id=449 transform=matrix(1,0,0,1,2155.48,823.3) ed:layout=map ed:parentid=407>
+ <path d=M0,0L125.6,0L125.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=100 y=16.95 x=9>Service TLS 案例</tspan>
+ </text>
+ </g>
+ <g ed:width=195.2 ed:height=23.4 id=451 transform=matrix(1,0,0,1,2155.48,856.45) ed:layout=map ed:parentid=407>
+ <path d=M0,0L195.2,0L195.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=166 y=16.95 x=9>Ingress与Ingress Controller</tspan>
+ </text>
+ </g>
+ <g ed:width=385.6 ed:height=23.4 id=453 transform=matrix(1,0,0,1,2155.48,889.6) ed:layout=map ed:parentid=407>
+ <path d=M0,0L385.6,0L385.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=348 y=16.95 x=9>Ingress暴露Service：默认后端、扇出、基于名称的虚拟托管</tspan>
+ </text>
+ </g>
+ <g ed:width=124.8 ed:height=23.4 id=455 transform=matrix(1,0,0,1,2155.48,922.75) ed:layout=map ed:parentid=407>
+ <path d=M0,0L124.8,0L124.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=100 y=16.95 x=9>Ingress TLS 案例</tspan>
+ </text>
+ </g>
+ <g ed:width=285.6 ed:height=23.4 id=457 transform=matrix(1,0,0,1,2155.48,955.9) ed:layout=map ed:parentid=407>
+ <path d=M0,0L285.6,0L285.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=250 y=16.95 x=9>MetalLB与Service LoadBalancer、Ingress</tspan>
+ </text>
+ </g>
+ <g ed:width=188 ed:height=23.4 id=459 transform=matrix(1,0,0,1,2155.48,989.05) ed:layout=map ed:parentid=407>
+ <path d=M0,0L188,0L188,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=160 y=16.95 x=9>配置：ConfigMap与Secret</tspan>
+ </text>
+ </g>
+ <g ed:width=372 ed:height=23.4 id=461 transform=matrix(1,0,0,1,2155.48,1022.2) ed:layout=map ed:parentid=407>
+ <path d=M0,0L372,0L372,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=337 y=16.95 x=9>存储：hostPath、emptyDir、ConfigMap、Secret、PVC</tspan>
+ </text>
+ </g>
+ <g ed:width=200 ed:height=23.4 id=465 transform=matrix(1,0,0,1,2155.48,267) ed:layout=map ed:parentid=405>
+ <path d=M0,0L200,0L200,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=170 y=16.95 x=9>网络：bridge驱动、host驱动</tspan>
+ </text>
+ </g>
+ <g ed:width=421.6 ed:height=23.4 id=467 transform=matrix(1,0,0,1,2155.48,333.3) ed:layout=map ed:parentid=405>
+ <path d=M0,0L421.6,0L421.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=381 y=16.95 x=9>Swarm集群：集群管理、节点管理、服务管理、Compose Deploy</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=469 transform=matrix(1,0,0,1,2756.48,93.75) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>短信服务</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=471 transform=matrix(1,0,0,1,2756.48,200.7) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>邮件服务</tspan>
+ </text>
+ </g>
+ <g ed:width=60.8 ed:height=23.4 id=473 transform=matrix(1,0,0,1,2756.48,340.8) ed:layout=map ed:parentid=116>
+ <path d=M0,0L60.8,0L60.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=39 y=16.95 x=9>验证码</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=475 transform=matrix(1,0,0,1,2756.48,447.75) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>对象存储</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=477 transform=matrix(1,0,0,1,2756.48,621) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>日志服务</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=479 transform=matrix(1,0,0,1,2756.48,761.1) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>标准直播</tspan>
+ </text>
+ </g>
+ <g ed:width=60.8 ed:height=23.4 id=481 transform=matrix(1,0,0,1,2756.48,967.5) ed:layout=map ed:parentid=116>
+ <path d=M0,0L60.8,0L60.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=39 y=16.95 x=9>云点播</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=483 transform=matrix(1,0,0,1,2756.48,1280.85) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>人脸核身</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=485 transform=matrix(1,0,0,1,2756.48,1420.95) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>文字识别</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=487 transform=matrix(1,0,0,1,2756.48,1140.75) ed:layout=map ed:parentid=116>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>多媒体创作引擎</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=489 transform=matrix(1,0,0,1,2756.48,1527.9) ed:layout=map ed:parentid=116>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>压测大师</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=493 transform=matrix(1,0,0,1,2784.08,167.55) ed:layout=map ed:parentid=469>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>短信验证码</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=495 transform=matrix(1,0,0,1,2784.08,134.4) ed:layout=map ed:parentid=469>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>短信模板管理</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=497 transform=matrix(1,0,0,1,2784.08,241.35) ed:layout=map ed:parentid=471>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>邮件模板管理</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=499 transform=matrix(1,0,0,1,2784.08,274.5) ed:layout=map ed:parentid=471>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>邮件推送</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=501 transform=matrix(1,0,0,1,2784.08,307.65) ed:layout=map ed:parentid=471>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>邮件黑名单</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=503 transform=matrix(1,0,0,1,2784.08,381.45) ed:layout=map ed:parentid=473>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>客户端接入</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=505 transform=matrix(1,0,0,1,2784.08,414.6) ed:layout=map ed:parentid=473>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>服务端接入</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=507 transform=matrix(1,0,0,1,2784.08,488.4) ed:layout=map ed:parentid=475>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>数据直传</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=509 transform=matrix(1,0,0,1,2784.08,521.55) ed:layout=map ed:parentid=475>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>数据安全</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=511 transform=matrix(1,0,0,1,2784.08,554.7) ed:layout=map ed:parentid=475>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>数据处理</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=513 transform=matrix(1,0,0,1,2784.08,587.85) ed:layout=map ed:parentid=475>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>静态网站</tspan>
+ </text>
+ </g>
+ <g ed:width=96.8 ed:height=23.4 id=515 transform=matrix(1,0,0,1,2784.08,694.8) ed:layout=map ed:parentid=477>
+ <path d=M0,0L96.8,0L96.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=73 y=16.95 x=9>API日志采集</tspan>
+ </text>
+ </g>
+ <g ed:width=152 ed:height=23.4 id=517 transform=matrix(1,0,0,1,2784.08,727.95) ed:layout=map ed:parentid=477>
+ <path d=M0,0L152,0L152,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=123 y=16.95 x=9>Loglistener 实时采集</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=519 transform=matrix(1,0,0,1,2784.08,661.65) ed:layout=map ed:parentid=477>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>日志主题</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=521 transform=matrix(1,0,0,1,2784.08,801.75) ed:layout=map ed:parentid=479>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>延播管理</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=523 transform=matrix(1,0,0,1,2784.08,834.9) ed:layout=map ed:parentid=479>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>直播流管理</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=525 transform=matrix(1,0,0,1,2784.08,868.05) ed:layout=map ed:parentid=479>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>录制管理</tspan>
+ </text>
+ </g>
+ <g ed:width=47.2 ed:height=23.4 id=527 transform=matrix(1,0,0,1,2784.08,901.2) ed:layout=map ed:parentid=479>
+ <path d=M0,0L47.2,0L47.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=26 y=16.95 x=9>鉴权</tspan>
+ </text>
+ </g>
+ <g ed:width=47.2 ed:height=23.4 id=529 transform=matrix(1,0,0,1,2784.08,934.35) ed:layout=map ed:parentid=479>
+ <path d=M0,0L47.2,0L47.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=26 y=16.95 x=9>鉴黄</tspan>
+ </text>
+ </g>
+ <g ed:width=259.2 ed:height=23.4 id=531 transform=matrix(1,0,0,1,2784.08,1008.15) ed:layout=map ed:parentid=481>
+ <path d=M0,0L259.2,0L259.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=229 y=16.95 x=9>通过API将网络媒体拉取并上传到云点播</tspan>
+ </text>
+ </g>
+ <g ed:width=169.6 ed:height=23.4 id=533 transform=matrix(1,0,0,1,2784.08,1041.3) ed:layout=map ed:parentid=481>
+ <path d=M0,0L169.6,0L169.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=143 y=16.95 x=9>服务端上传视频到云点播</tspan>
+ </text>
+ </g>
+ <g ed:width=169.6 ed:height=23.4 id=535 transform=matrix(1,0,0,1,2784.08,1074.45) ed:layout=map ed:parentid=481>
+ <path d=M0,0L169.6,0L169.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=142 y=16.95 x=9>web端上传视频到云点播</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=537 transform=matrix(1,0,0,1,2784.08,1107.6) ed:layout=map ed:parentid=481>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>视频处理</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=539 transform=matrix(1,0,0,1,2784.08,1321.5) ed:layout=map ed:parentid=483>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>照片人脸核身</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=541 transform=matrix(1,0,0,1,2784.08,1354.65) ed:layout=map ed:parentid=483>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>活体人脸核身</tspan>
+ </text>
+ </g>
+ <g ed:width=101.6 ed:height=23.4 id=543 transform=matrix(1,0,0,1,2784.08,1387.8) ed:layout=map ed:parentid=483>
+ <path d=M0,0L101.6,0L101.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=78 y=16.95 x=9>活体人脸对比</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=545 transform=matrix(1,0,0,1,2784.08,1461.6) ed:layout=map ed:parentid=485>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>车牌识别</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=547 transform=matrix(1,0,0,1,2784.08,1494.75) ed:layout=map ed:parentid=485>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>通信行程卡识别</tspan>
+ </text>
+ </g>
+ <g ed:width=88 ed:height=23.4 id=549 transform=matrix(1,0,0,1,2784.08,1181.4) ed:layout=map ed:parentid=487>
+ <path d=M0,0L88,0L88,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=65 y=16.95 x=9>点播转直播</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=551 transform=matrix(1,0,0,1,2784.08,1214.55) ed:layout=map ed:parentid=487>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>多平台同步直播</tspan>
+ </text>
+ </g>
+ <g ed:width=183.2 ed:height=23.4 id=553 transform=matrix(1,0,0,1,2784.08,1247.7) ed:layout=map ed:parentid=487>
+ <path d=M0,0L183.2,0L183.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=156 y=16.95 x=9>使用视频编辑模板导出视频</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=555 transform=matrix(1,0,0,1,2784.08,1568.55) ed:layout=map ed:parentid=489>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>并发测试</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=758 transform=matrix(1,0,0,1,2784.08,1601.7) ed:layout=map ed:parentid=489>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>负载测试</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=760 transform=matrix(1,0,0,1,2784.08,1634.85) ed:layout=map ed:parentid=489>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>接口测试</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=762 transform=matrix(1,0,0,1,2784.08,1668) ed:layout=map ed:parentid=489>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>压力测试</tspan>
+ </text>
+ </g>
+ <g ed:width=109.6 ed:height=37.55 id=767 transform=matrix(1,0,0,1,3082.28,31.45) ed:layout=map ed:parentid=101>
+ <path d=M0,0L109.6,0L109.6,37.5L0,37.5L0,0z fill=#ffffff></path>
+ <path stroke-linejoin=round d=M0,37.5L109.6,37.5 stroke-width=2 stroke=#f96628 fill=none></path>
+ <text class=st2>
+ <tspan style=white-space:pre textLength=76 y=25.2 x=17>零声服务</tspan>
+ </text>
+ </g>
+ <g ed:width=115.2 ed:height=23.4 id=769 transform=matrix(1,0,0,1,3128.28,93.75) ed:layout=map ed:parentid=767>
+ <path d=M0,0L115.2,0L115.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=91 y=16.95 x=9>适宜工程师人群</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=771 transform=matrix(1,0,0,1,3128.28,937.75) ed:layout=map ed:parentid=767>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>参考书籍</tspan>
+ </text>
+ </g>
+ <g ed:width=109.6 ed:height=23.4 id=773 transform=matrix(1,0,0,1,3128.28,506.55) ed:layout=map ed:parentid=767>
+ <path d=M0,0L109.6,0L109.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=86 y=16.95 x=9>学习方法大5点</tspan>
+ </text>
+ </g>
+ <g ed:width=109.6 ed:height=23.4 id=775 transform=matrix(1,0,0,1,3128.28,712.95) ed:layout=map ed:parentid=767>
+ <path d=M0,0L109.6,0L109.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=86 y=16.95 x=9>学习方法小5点</tspan>
+ </text>
+ </g>
+ <g ed:width=336 ed:height=23.4 id=777 transform=matrix(1,0,0,1,3155.88,134.4) ed:layout=map ed:parentid=769>
+ <path d=M0,0L336,0L336,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=302 y=16.95 x=9>从事后端开发3~5年，想转go语言的后端开发工程师</tspan>
+ </text>
+ </g>
+ <g ed:width=364 ed:height=23.4 id=779 transform=matrix(1,0,0,1,3155.88,167.55) ed:layout=map ed:parentid=769>
+ <path d=M0,0L364,0L364,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=328 y=16.95 x=9>从事后端开发多年，工作中需要使用go语言开发的工程师</tspan>
+ </text>
+ </g>
+ <g ed:width=463.2 ed:height=23.4 id=781 transform=matrix(1,0,0,1,3155.88,200.7) ed:layout=map ed:parentid=769>
+ <path d=M0,0L463.2,0L463.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=422 y=16.95 x=9>工作没什么挑战，对go语言的应用不够深入，技术栈比较单一的go工程师</tspan>
+ </text>
+ </g>
+ <g ed:width=391.2 ed:height=23.4 id=783 transform=matrix(1,0,0,1,3155.88,233.85) ed:layout=map ed:parentid=769>
+ <path d=M0,0L391.2,0L391.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=354 y=16.95 x=9>工作中使用到容器化，但是对容器化方面知之甚少的go工程师</tspan>
+ </text>
+ </g>
+ <g ed:width=482.4 ed:height=23.4 id=785 transform=matrix(1,0,0,1,3155.88,267) ed:layout=map ed:parentid=769>
+ <path d=M0,0L482.4,0L482.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=442 y=16.95 x=9>计算机相关专业的在校生或应届毕业生，本科以上学历，有任意后端语言基础</tspan>
+ </text>
+ </g>
+ <g ed:width=237.6 ed:height=23.4 id=787 transform=matrix(1,0,0,1,3155.88,547.2) ed:layout=map ed:parentid=773>
+ <path d=M0,0L237.6,0L237.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=208 y=16.95 x=9>根据课程大纲从基础篇入手逐步深入</tspan>
+ </text>
+ </g>
+ <g ed:width=305.6 ed:height=23.4 id=789 transform=matrix(1,0,0,1,3155.88,580.35) ed:layout=map ed:parentid=773>
+ <path d=M0,0L305.6,0L305.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=273 y=16.95 x=9>多想，遇到任何问题，深入思考找到真正的问题</tspan>
+ </text>
+ </g>
+ <g ed:width=224 ed:height=23.4 id=791 transform=matrix(1,0,0,1,3155.88,613.5) ed:layout=map ed:parentid=773>
+ <path d=M0,0L224,0L224,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=195 y=16.95 x=9>多练，通过练习将知识点融汇贯通</tspan>
+ </text>
+ </g>
+ <g ed:width=373.6 ed:height=23.4 id=793 transform=matrix(1,0,0,1,3155.88,646.65) ed:layout=map ed:parentid=773>
+ <path d=M0,0L373.6,0L373.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=338 y=16.95 x=9>多问，通过自己思考和尝试仍不理解的问题，多找老师沟通</tspan>
+ </text>
+ </g>
+ <g ed:width=264.8 ed:height=23.4 id=795 transform=matrix(1,0,0,1,3155.88,679.8) ed:layout=map ed:parentid=773>
+ <path d=M0,0L264.8,0L264.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=234 y=16.95 x=9>多讨论，找身边的同时朋友讨论技术问题</tspan>
+ </text>
+ </g>
+ <g ed:width=496 ed:height=23.4 id=797 transform=matrix(1,0,0,1,3155.88,753.6) ed:layout=map ed:parentid=775>
+ <path d=M0,0L496,0L496,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=455 y=16.95 x=9>每节课程先预习课件，提出一些疑问，再看视频学习，看完一遍视频之后再练习</tspan>
+ </text>
+ </g>
+ <g ed:width=509.6 ed:height=23.4 id=799 transform=matrix(1,0,0,1,3155.88,786.75) ed:layout=map ed:parentid=775>
+ <path d=M0,0L509.6,0L509.6,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=468 y=16.95 x=9>课后总结：学到什么，可以在哪些场景应用，没学懂的内容有哪些，反复学习练习</tspan>
+ </text>
+ </g>
+ <g ed:width=516 ed:height=41.8 id=801 transform=matrix(1,0,0,1,3155.88,819.9) ed:layout=map ed:parentid=775>
+ <path d=M0,0L516,0L516,41.8L0,41.8L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=468 y=16.95 x=9>将学到的内容以文档、博客或其他形式向外输出，通过这种方式整理知识点之间逻</tspan>
+ <tspan style=white-space:pre textLength=130 y=35.35 x=9>辑关系，加强学习效果</tspan>
+ </text>
+ </g>
+ <g ed:width=387.2 ed:height=23.4 id=803 transform=matrix(1,0,0,1,3155.88,871.45) ed:layout=map ed:parentid=775>
+ <path d=M0,0L387.2,0L387.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=351 y=16.95 x=9>如果可以，建议参加零声学院的费曼学习计划，巩固所学知识</tspan>
+ </text>
+ </g>
+ <g ed:width=292 ed:height=23.4 id=805 transform=matrix(1,0,0,1,3155.88,904.6) ed:layout=map ed:parentid=775>
+ <path d=M0,0L292,0L292,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=260 y=16.95 x=9>通过自己努力搞不懂的问题，积极与老师沟通</tspan>
+ </text>
+ </g>
+ <g ed:width=179.2 ed:height=23.4 id=807 transform=matrix(1,0,0,1,3155.88,978.4) ed:layout=map ed:parentid=771>
+ <path d=M0,0L179.2,0L179.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=152 y=16.95 x=9>《Go 语言底层原理剖析》</tspan>
+ </text>
+ </g>
+ <g ed:width=124.8 ed:height=23.4 id=809 transform=matrix(1,0,0,1,3155.88,1011.55) ed:layout=map ed:parentid=771>
+ <path d=M0,0L124.8,0L124.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=100 y=16.95 x=9>《Docker 实践》</tspan>
+ </text>
+ </g>
+ <g ed:width=218.4 ed:height=23.4 id=811 transform=matrix(1,0,0,1,3155.88,1044.7) ed:layout=map ed:parentid=771>
+ <path d=M0,0L218.4,0L218.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=190 y=16.95 x=9>《Docker 容器与容器云 第2版》</tspan>
+ </text>
+ </g>
+ <g ed:width=218.4 ed:height=23.4 id=813 transform=matrix(1,0,0,1,3155.88,1077.85) ed:layout=map ed:parentid=771>
+ <path d=M0,0L218.4,0L218.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=189 y=16.95 x=9>《Kubernetes 权威指南 第4版》</tspan>
+ </text>
+ </g>
+ <g ed:width=142.4 ed:height=23.4 id=815 transform=matrix(1,0,0,1,3155.88,1111) ed:layout=map ed:parentid=771>
+ <path d=M0,0L142.4,0L142.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=117 y=16.95 x=9>《云原生应用框架》</tspan>
+ </text>
+ </g>
+ <g ed:width=74.40000000000001 ed:height=23.4 id=817 transform=matrix(1,0,0,1,3128.28,300.15) ed:layout=map ed:parentid=767>
+ <path d=M0,0L74.4,0L74.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=52 y=16.95 x=9>目标岗位</tspan>
+ </text>
+ </g>
+ <g ed:width=135.2 ed:height=23.4 id=819 transform=matrix(1,0,0,1,3155.88,340.8) ed:layout=map ed:parentid=817>
+ <path d=M0,0L135.2,0L135.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=109 y=16.95 x=9>Golang开发工程师</tspan>
+ </text>
+ </g>
+ <g ed:width=162.4 ed:height=23.4 id=821 transform=matrix(1,0,0,1,3155.88,373.95) ed:layout=map ed:parentid=817>
+ <path d=M0,0L162.4,0L162.4,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=135 y=16.95 x=9>高级Golang开发工程师</tspan>
+ </text>
+ </g>
+ <g ed:width=176 ed:height=23.4 id=823 transform=matrix(1,0,0,1,3155.88,407.1) ed:layout=map ed:parentid=817>
+ <path d=M0,0L176,0L176,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=148 y=16.95 x=9>Golang服务端开发工程师</tspan>
+ </text>
+ </g>
+ <g ed:width=175.2 ed:height=23.4 id=825 transform=matrix(1,0,0,1,3155.88,440.25) ed:layout=map ed:parentid=817>
+ <path d=M0,0L175.2,0L175.2,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=148 y=16.95 x=9>中台后端开发（Go语言）</tspan>
+ </text>
+ </g>
+ <g ed:width=188.8 ed:height=23.4 id=827 transform=matrix(1,0,0,1,3155.88,473.4) ed:layout=map ed:parentid=817>
+ <path d=M0,0L188.8,0L188.8,23.4L0,23.4L0,0z fill=#ffffff></path>
+ <text class=st3>
+ <tspan style=white-space:pre textLength=161 y=16.95 x=9>运维开发工程师（Go语言）</tspan>
+ </text>
+ </g>
+</svg>
+</div>
+ <div id=copyright> 课程购买地址 <a href=https://ke.qq.com/course/3384068 target=_blank title=edrawsoft>腾讯课堂 golang/云原生/Docker/DevOps/K8S/持续集成/分布式/etcd/ipfs</a></div>
+ </div>
+ </div>
+ 
+ 
+<div id=screenshot-bbox style=z-index:9999999;position:fixed;top:0px;left:0px;width:0px;height:0px class=sf-hidden></div>
